@@ -1,0 +1,8 @@
+
+.flex-grid {
+  display: flex;
+}
+.col {
+  flex: 1;
+  margin: 20px;
+}

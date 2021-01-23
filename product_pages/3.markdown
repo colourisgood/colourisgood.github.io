@@ -1,0 +1,6 @@
+---
+layout: archive
+title: temp
+permalink: /product/3
+product_id: 3
+---
