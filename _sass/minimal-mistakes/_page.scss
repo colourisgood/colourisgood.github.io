@@ -159,6 +159,7 @@ body {
 
 .page__hero {
   position: relative;
+  height: 500px;
   margin-bottom: 2em;
   @include clearfix;
   -webkit-animation: $intro-transition;
