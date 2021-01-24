@@ -23,11 +23,10 @@ permalink: index
 date: 2016-03-23T11:48:41-04:00
 header:
   overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/foo-bar-identity.jpg
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  overlay_filter: "0"
+  overlay_image: /assets/images/example_Thank_You_1_20.png
 intro:
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  - excerpt: 'encounter colour'
 {content}
 ---
 
