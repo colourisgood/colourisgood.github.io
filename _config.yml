@@ -39,7 +39,7 @@ plugins:
   - jekyll-include-cache
 
 # customization
-minimal_mistakes_skin: "air"
+minimal_mistakes_skin: "custom"
 
 logo: /assets/images/stamp2.jpg
 
