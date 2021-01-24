@@ -10,6 +10,10 @@
   margin: 20px;
 }
 
+$global-font-family: Times, serif !default;
+$header-font-family: Times, serif !default;
+$caption-font-family: Times, serif !default;
+
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
@@ -23,4 +27,10 @@
   height: 500px;
 }
 
+.masthead__menu-item {
+  font-family: 'Times New Roman', Times, serif;
+}
 
+.archive__item-title {
+  font-family: 'Times New Roman', Times, serif;
+}
