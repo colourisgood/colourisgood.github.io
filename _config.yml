@@ -39,13 +39,15 @@ plugins:
   - jekyll-include-cache
 
 # customization
-logo: /assets/images/neck1.png
+minimal_mistakes_skin: "air"
+
+logo: /assets/images/stamp2.jpg
 
 footer:
   links:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/colourisgood"
+      url: "https://instagram.com/colour.is.good.shop"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
