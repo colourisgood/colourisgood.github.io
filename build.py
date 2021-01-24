@@ -2,7 +2,7 @@ import os
 import yaml
 
 template = """---
-layout: archive
+layout: product
 title: temp
 permalink: /product/{product_id}
 product_id: {product_id}

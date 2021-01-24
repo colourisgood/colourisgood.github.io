@@ -24,22 +24,22 @@
       <div id="main" role="main">
         {% include sidebar.html %}
         {% assign product = site.data.products[page.product_id] %}
-        <div class="archive">
+        <div class="splash">
           <div class="flex-grid">
             <div class="col">
               <img src="{{ product.image }}">
             </div>
             <div class="col">
               <div class="row">
-                <span>{{ product.name }}</span>
+                <h3>{{ product.name }}</h3>
               </div>
               <div class="row">
-                <span>{{ product.price }}</span>
+                <span>${{ product.price }}</span>
               </div>
               <div class="row">
                 <p>{{ product.details }}</p>
               </div>
-              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="background-color: #ffffff;">
                 <input type="hidden" name="cmd" value="_cart">
                 <input type="hidden" name="business" value="jeffreyjohnens@gmail.com">
                 <input type="hidden" name="lc" value="US">

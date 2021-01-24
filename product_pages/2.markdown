@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: product
 title: temp
 permalink: /product/2
 product_id: 2
