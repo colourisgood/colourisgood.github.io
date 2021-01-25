@@ -7,7 +7,7 @@ intro:
 row0:
 - alt: placehold text
   background: '#C4F9DDAA'
-  excerpt: $99.99
+  excerpt: $0.99
   image_path: /assets/images/neck1.png
   image_url: product/1
   title: Hidden Jaguar
