@@ -6,32 +6,32 @@ intro:
   - excerpt: 'encounter colour'
 row0:
 - alt: placehold text
-  background: '#C4F9DD'
+  background: '#C4F9DDAA'
   excerpt: $99.99
   image_path: /assets/images/neck1.png
   image_url: product/1
   title: Hidden Jaguar
 - alt: placehold text
-  background: '#F9C4DE'
+  background: '#F9C4DEAA'
   excerpt: $79.99
   image_path: /assets/images/neck2.png
   image_url: product/2
   title: Sullen Dragon
 - alt: placehold text
-  background: '#F9F8C4'
+  background: '#F9F8C4AA'
   excerpt: $399.99
   image_path: /assets/images/neck3.png
   image_url: product/3
   title: Delicious Breakfast Sandwhich
 row1:
 - alt: placehold text
-  background: '#CEFBFD'
+  background: '#CEFBFDAA'
   excerpt: $40.99
   image_path: /assets/images/neck4.png
   image_url: product/4
   title: Radical Rubies
 - alt: placehold text
-  background: '#F9E4C4'
+  background: '#F9E4C4AA'
   excerpt: $219.99
   image_path: /assets/images/neck1.png
   image_url: product/5

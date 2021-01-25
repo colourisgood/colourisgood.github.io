@@ -8,5 +8,5 @@ toc: true
 ---
 
 <br/><br/>
-If you have any questions you can find me at colour.is.good.shop@gmail.com
+If you have any questions you can find me at **colour.is.good.shop@gmail.com**
 
