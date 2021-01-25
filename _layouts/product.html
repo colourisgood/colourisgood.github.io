@@ -9,16 +9,16 @@ layout: splash
   </div>
   <div class="col">
     <div class="row">
-      <h3>{{ product.name }}</h3>
+      <span class="archive__item-title">{{ product.name }}<span>
     </div>
     <div class="row">
-      <span>${{ product.price }}</span>
+      <span class="archive__item-excerpt">${{ product.price }}</span>
     </div>
     <br/><br/>
     <div class="row">
-      <p>{{ product.details }}</p>
+      <p class="archive__item-excerpt">{{ product.details }}</p>
     </div>
-    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin-left:-20px">
       <input type="hidden" name="cmd" value="_cart">
       <input type="hidden" name="business" value="jeffreyjohnens@gmail.com">
       <input type="hidden" name="lc" value="US">

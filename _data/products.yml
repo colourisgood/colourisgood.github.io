@@ -1,25 +1,25 @@
 1:
   name: "Hidden Jaguar"
   price: "99.99"
-  details: "this is a more detailed description. this is an even longer description can we even try to be duplicate of our surrogate in the minds eye."
+  details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique lacus non diam sollicitudin euismod. Quisque at lacus eu felis condimentum varius eu quis felis. Nulla condimentum neque ex, ut mattis dolor convallis vel. Duis id eros lacus. Nullam lectus libero, elementum eget libero imperdiet, volutpat suscipit quam. Maecenas in semper magna, vel convallis odio."
   image: /assets/images/neck3.jpg
 2:
   name: "Sullen Dragon"
   price: "79.99"
-  details: "this would be a great buy. has dragon claws"
+  details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique lacus non diam sollicitudin euismod. Quisque at lacus eu felis condimentum varius eu quis felis. Nulla condimentum neque ex, ut mattis dolor convallis vel. Duis id eros lacus. Nullam lectus libero, elementum eget libero imperdiet, volutpat suscipit quam. Maecenas in semper magna, vel convallis odio."
   image: /assets/images/neck2.png
 3:
   name: "Delicious Breakfast Sandwhich"
   price: "399.99"
-  details: "this is expensive but worth it"
+  details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique lacus non diam sollicitudin euismod. Quisque at lacus eu felis condimentum varius eu quis felis. Nulla condimentum neque ex, ut mattis dolor convallis vel. Duis id eros lacus. Nullam lectus libero, elementum eget libero imperdiet, volutpat suscipit quam. Maecenas in semper magna, vel convallis odio."
   image: /assets/images/neck3.jpg
 4:
   name: "Radical Rubies"
   price: "40.99"
-  details: "feast your eyes on this beauty"
+  details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique lacus non diam sollicitudin euismod. Quisque at lacus eu felis condimentum varius eu quis felis. Nulla condimentum neque ex, ut mattis dolor convallis vel. Duis id eros lacus. Nullam lectus libero, elementum eget libero imperdiet, volutpat suscipit quam. Maecenas in semper magna, vel convallis odio."
   image: /assets/images/neck4.png
 5:
   name: "Luxurious Floating Panda"
   price: "219.99"
-  details: "your hearts tru desire"
+  details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique lacus non diam sollicitudin euismod. Quisque at lacus eu felis condimentum varius eu quis felis. Nulla condimentum neque ex, ut mattis dolor convallis vel. Duis id eros lacus. Nullam lectus libero, elementum eget libero imperdiet, volutpat suscipit quam. Maecenas in semper magna, vel convallis odio."
   image: /assets/images/neck1.png

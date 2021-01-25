@@ -5,14 +5,15 @@
 .flex-grid {
   display: flex;
 }
+
 .col {
   flex: 1;
   margin: 20px;
 }
 
-$global-font-family: Times, serif !default;
-$header-font-family: Times, serif !default;
-$caption-font-family: Times, serif !default;
+$global-font-family: 'Roboto';
+$header-font-family: 'Freckle Face';
+$caption-font-family: 'Freckle Face';
 
 @charset "utf-8";
 
@@ -23,14 +24,33 @@ $caption-font-family: Times, serif !default;
   height: 500px;
 }
 
+
 .masthead {
-  height: 500px;
+  height: 150px;
 }
 
+// menu links
 .masthead__menu-item {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Freckle Face';
+  font-size: 35px;
 }
 
+// product titles
 .archive__item-title {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Freckle Face';
+  font-size: 30px;
+}
+
+// product prices
+.archive__item-excerpt {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 100;
+}
+
+// about
+.page__content {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 100;
 }
