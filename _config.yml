@@ -41,7 +41,7 @@ plugins:
 # customization
 minimal_mistakes_skin: "custom"
 
-logo: /assets/images/colour_change2_light.png
+logo: /assets/images/logo_blue_invert.png
 
 footer:
   links:
