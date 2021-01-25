@@ -2,35 +2,36 @@
 layout: splash
 permalink: index
 date: 2016-03-23T11:48:41-04:00
-header:
-  overlay_color: "#000"
-  overlay_filter: "0"
-  overlay_image: /assets/images/example_Thank_You_1_20.png
 intro:
   - excerpt: 'encounter colour'
 row0:
 - alt: placehold text
+  background: '#C4F9DD'
   excerpt: $99.99
-  image_path: /assets/images/neck3.jpg
+  image_path: /assets/images/neck1.png
   image_url: product/1
   title: Hidden Jaguar
 - alt: placehold text
+  background: '#F9C4DE'
   excerpt: $79.99
   image_path: /assets/images/neck2.png
   image_url: product/2
   title: Sullen Dragon
 - alt: placehold text
+  background: '#F9F8C4'
   excerpt: $399.99
-  image_path: /assets/images/neck3.jpg
+  image_path: /assets/images/neck3.png
   image_url: product/3
   title: Delicious Breakfast Sandwhich
 row1:
 - alt: placehold text
+  background: '#CEFBFD'
   excerpt: $40.99
   image_path: /assets/images/neck4.png
   image_url: product/4
   title: Radical Rubies
 - alt: placehold text
+  background: '#F9E4C4'
   excerpt: $219.99
   image_path: /assets/images/neck1.png
   image_url: product/5

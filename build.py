@@ -21,10 +21,6 @@ template = """---
 layout: splash
 permalink: index
 date: 2016-03-23T11:48:41-04:00
-header:
-  overlay_color: "#000"
-  overlay_filter: "0"
-  overlay_image: /assets/images/example_Thank_You_1_20.png
 intro:
   - excerpt: 'encounter colour'
 {content}
@@ -43,7 +39,8 @@ for k,v in products.items():
     "image_url" : "product/{}".format(k),
     "alt" : "placehold text",
     "title" : v["name"],
-    "excerpt" : "$" + v["price"]
+    "excerpt" : "$" + v["price"],
+    "background" : v.get("background", "red")
   }
   items.append(item)
 

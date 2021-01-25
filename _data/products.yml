@@ -2,24 +2,29 @@
   name: "Hidden Jaguar"
   price: "99.99"
   details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique lacus non diam sollicitudin euismod. Quisque at lacus eu felis condimentum varius eu quis felis. Nulla condimentum neque ex, ut mattis dolor convallis vel. Duis id eros lacus. Nullam lectus libero, elementum eget libero imperdiet, volutpat suscipit quam. Maecenas in semper magna, vel convallis odio."
-  image: /assets/images/neck3.jpg
+  image: /assets/images/neck1.png
+  background: "#C4F9DD"
 2:
   name: "Sullen Dragon"
   price: "79.99"
   details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique lacus non diam sollicitudin euismod. Quisque at lacus eu felis condimentum varius eu quis felis. Nulla condimentum neque ex, ut mattis dolor convallis vel. Duis id eros lacus. Nullam lectus libero, elementum eget libero imperdiet, volutpat suscipit quam. Maecenas in semper magna, vel convallis odio."
   image: /assets/images/neck2.png
+  background: "#F9C4DE"
 3:
   name: "Delicious Breakfast Sandwhich"
   price: "399.99"
   details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique lacus non diam sollicitudin euismod. Quisque at lacus eu felis condimentum varius eu quis felis. Nulla condimentum neque ex, ut mattis dolor convallis vel. Duis id eros lacus. Nullam lectus libero, elementum eget libero imperdiet, volutpat suscipit quam. Maecenas in semper magna, vel convallis odio."
-  image: /assets/images/neck3.jpg
+  image: /assets/images/neck3.png
+  background: "#F9F8C4"
 4:
   name: "Radical Rubies"
   price: "40.99"
   details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique lacus non diam sollicitudin euismod. Quisque at lacus eu felis condimentum varius eu quis felis. Nulla condimentum neque ex, ut mattis dolor convallis vel. Duis id eros lacus. Nullam lectus libero, elementum eget libero imperdiet, volutpat suscipit quam. Maecenas in semper magna, vel convallis odio."
   image: /assets/images/neck4.png
+  background: "#CEFBFD"
 5:
   name: "Luxurious Floating Panda"
   price: "219.99"
   details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique lacus non diam sollicitudin euismod. Quisque at lacus eu felis condimentum varius eu quis felis. Nulla condimentum neque ex, ut mattis dolor convallis vel. Duis id eros lacus. Nullam lectus libero, elementum eget libero imperdiet, volutpat suscipit quam. Maecenas in semper magna, vel convallis odio."
   image: /assets/images/neck1.png
+  background: "#F9E4C4"

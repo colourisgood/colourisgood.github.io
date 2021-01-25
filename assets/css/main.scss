@@ -21,23 +21,27 @@ $caption-font-family: 'Freckle Face';
 @import "minimal-mistakes"; // main partials
 
 .wrapper  {
-  height: 500px;
+  height: 300px;
 }
+
+//.archive__item-teaser {
+//  background: red;
+//}
 
 
 .masthead {
-  height: 150px;
+  height: auto;
 }
 
 // menu links
 .masthead__menu-item {
-  font-family: 'Freckle Face';
-  font-size: 35px;
+  font-family: 'Amatic SC';
+  font-size: 30px;
 }
 
 // product titles
 .archive__item-title {
-  font-family: 'Freckle Face';
+  font-family: 'Amatic SC';
   font-size: 30px;
 }
 
