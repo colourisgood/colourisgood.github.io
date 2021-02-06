@@ -8,11 +8,24 @@ toc: true
 ---
 
 <br/><br/>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique lacus non diam sollicitudin euismod. Quisque at lacus eu felis condimentum varius eu quis felis. Nulla condimentum neque ex, ut mattis dolor convallis vel. Duis id eros lacus. Nullam lectus libero, elementum eget libero imperdiet, volutpat suscipit quam. Maecenas in semper magna, vel convallis odio. In tempor suscipit augue nec sollicitudin. Integer scelerisque, sem et elementum viverra, dolor purus porta sem, nec aliquet est ex at nisi. Donec efficitur consectetur tempor. Aliquam ac scelerisque nunc. Maecenas nunc orci, lacinia vitae cursus at, gravida eu nunc. In in lorem pulvinar, malesuada tortor et, molestie est. Donec gravida elementum imperdiet.
+It started with the name. 
 
-Sed ultrices nibh non fringilla rutrum. Morbi in nibh ac lacus porttitor ornare. Curabitur iaculis ipsum vel tortor luctus tincidunt. Proin id magna vestibulum eros aliquam congue. Nullam tincidunt porttitor eros eget cursus. Vestibulum eleifend lacinia consequat. Maecenas nibh urna, ultricies non sem vitae, viverra aliquet elit. In mattis pellentesque ipsum, nec posuere ex accumsan quis.
+The name **Colour is Good** came to me during the pandemic and sprung out of my deep desire to cultivate a creative space where I could pursue my artistic passions as well as contribute to positive change in the world. Colour is Good is a phrase which declares the importance of **acknowledging**, **respecting**, and **celebrating** diverse, nuanced, colourful experiences and is my small way of protesting a colour blind society (the sociological definition not the eye condition ;)).
 
-Donec sodales justo sed elit finibus, quis cursus nunc aliquet. Nunc sed semper eros, at maximus sapien. Etiam vel leo aliquet, vehicula diam euismod, egestas sem. Duis eleifend nibh enim, non volutpat mi dictum id. Aenean in commodo neque. Quisque libero urna, dignissim id imperdiet sit amet, cursus eget erat. Integer non nisi dui. Vestibulum ac porttitor ipsum. Cras eleifend massa vel pharetra accumsan. Aliquam erat volutpat. Vestibulum ex nulla, dapibus ut nulla ac, ultricies tincidunt est. Proin nec molestie diam. Donec id pharetra augue, non aliquet lectus.
+Another reason I created Colour is Good was to have a safe place where I could give myself the freedom to make things for the pure joy of it. I feel so fortunate to have access to create in this way. It is my privilege and hope to extend to others through Colour is Good the pursuit of creativity.
+
+Colour is Good signifies the possiblity to broaden our scope to see more than just what lies in front of us but the colourful goodness that exists within us.  
+
+Together we are a kaleidoscope of colours worth celebrating. 
+
+Together we radiate light, love, joy, and hope.
+
+Thank you for joining me in this colourful journey, I can’t wait to see where it takes us!
+
+~ Megan 
+
+
+Megan (she/her) is the creator and founder of Colour is Good. She is an artist residing on the traditional and unceeded territories of the Coast Salish peoples–Sḵwx̱wú7mesh (Squamish), Stó:lō and Səl̓ílwətaʔ/Selilwitulh (Tsleil-Waututh) and xʷməθkʷəy̓əm (Musqueam) Nations. She is a professional dancer, photographer, painter, scribbler, video maker, jewelry crafter and just loves making things. She is Haitian, Irish, and Scottish and hopes one day to visit the places of her heritage. She is passionate about the arts community and has hope for it to be better, brighter, more changed, and a place of equal opportunity where everyone is allowed to shine their brightest colours. 
 
 <br/><br/>
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/neck1.png" alt="">
