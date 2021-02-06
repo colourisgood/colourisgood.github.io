@@ -33,6 +33,34 @@ $caption-font-family: 'Freckle Face';
   height: auto;
 }
 
+// grid stuff for layout in footer
+.wrapper {
+  display: grid;
+  grid-template-areas: "a b";
+}
+
+.quick__links {
+  grid-area: a;
+}
+
+.other__links {
+  grid-area: b;
+  align-self: right;
+  justify-self: right;
+}
+
+// bottom links
+.footer__link {
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+// bottom links
+.footer__header {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
 // menu links
 .masthead__menu-item {
   font-family: 'Amatic SC';

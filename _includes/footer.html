@@ -1,18 +1,40 @@
-<div class="page__footer-follow">
-  <ul class="social-icons">
-    {% if site.data.ui-text[site.locale].follow_label %}
-      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
-    {% endif %}
 
-    {% if site.footer.links %}
-      {% for link in site.footer.links %}
-        {% if link.label and link.url %}
-          <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+
+<div class="wrapper">
+
+  <div class="other__links">
+    <div class="page__footer-follow">
+      <ul class="social-icons">
+        {% if site.data.ui-text[site.locale].follow_label %}
+          <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
         {% endif %}
-      {% endfor %}
-    {% endif %}
+        {% if site.footer.links %}
+          {% for link in site.footer.links %}
+            {% if link.label and link.url %}
+              <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+  
+  <div class="quick__links">
+    <div>
+      <div class="footer__header">Quick Links</div>
+      <div>
+        <a class="footer__link" href="{{ site.baseurl }}{% link faq %}">FAQ</a>
+      </div>
+      <div>
+        <a class="footer__link" href="{{ site.baseurl }}{% link contact %}">CONTACT</a>
+      </div>
+      <div>
+        <a class="footer__link" href="{{ site.baseurl }}{% link about %}">ABOUT</a>
+      </div>
+    </div>
+  </div>
 
-  </ul>
+  <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.</div>
+
 </div>
 
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.</div>
