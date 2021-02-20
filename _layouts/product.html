@@ -1,8 +1,17 @@
 ---
 layout: splash
 ---
-
 {% assign product = site.data.products[page.product_id] %}
+
+<script>
+  function myFunction(e) {
+    var p = ({{ product.price }} + (parseInt(e.value)-16) * 5).toFixed(2);  
+    document.getElementById("price").innerText = "$" + p.toString();
+    document.getElementById("paypal_price").value = p.toString();
+  }
+</script>
+
+
 <div class="flex-grid">
   <div class="col">
     <img src="{{ product.image }}">
@@ -11,8 +20,20 @@ layout: splash
     <div class="row">
       <span class="archive__item-title">{{ product.name }}<span>
     </div>
+
+    <br/><br>
     <div class="row">
-      <span class="archive__item-excerpt">${{ product.price }}</span>
+      <label for="size">Size:</label>
+      <select name="size" id="size" onchange="myFunction(this)">
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+      </select>
+    </div>
+
+    <div class="row">
+      <span class="archive__item-excerpt" id="price">${{ product.price }}</span>
     </div>
     <br/><br/>
     <div class="row">
@@ -24,7 +45,7 @@ layout: splash
       <input type="hidden" name="lc" value="US">
       <input type="hidden" name="item_name" value="{{ product.name }}">
       <input type="hidden" name="item_number" value="{{ page.product_id }}">
-      <input type="hidden" name="amount" value="{{ product.price }}">
+      <input type="hidden" name="amount" id="paypal_price" value="{{ product.price }}">
       <input type="hidden" name="currency_code" value="USD">
       <input type="hidden" name="button_subtype" value="products">
       <input type="hidden" name="no_note" value="0">
