@@ -4,11 +4,19 @@ layout: splash
 {% assign product = site.data.products[page.product_id] %}
 
 <script>
-  function myFunction(e) {
-    var p = ({{ product.price }} + (parseInt(e.value)-16) * 5).toFixed(2);  
+  function update_price() {
+    var size = document.getElementById("size");
+    var size_cost = (parseInt(size.value)-16) * 5;
+    var option = document.getElementById("options");
+    var option_cost = 0;
+    if (option != null) {
+      option_cost = parseFloat(option.value);
+    }
+    var p = ({{ product.price }} + size_cost + option_cost).toFixed(2);
     document.getElementById("price").innerText = "$" + p.toString();
     document.getElementById("paypal_price").value = p.toString();
   }
+  window.onload = update_price;
 </script>
 
 
@@ -24,13 +32,23 @@ layout: splash
     <br/><br>
     <div class="row">
       <label for="size">Size:</label>
-      <select name="size" id="size" onchange="myFunction(this)">
+      <select name="size" id="size" onchange="update_price()">
         <option value="16">16</option>
         <option value="17">17</option>
         <option value="18">18</option>
         <option value="19">19</option>
       </select>
     </div>
+
+    {% if product.options %}
+      <label for="options">Options:</label>
+      <select name="options" id="options" onchange="update_price()">
+        {% for option in product.options %}
+          <option value={{option.price}}>{{option.name}} ({{option.price}})
+          </option>
+        {% endfor %}
+      </select>
+    {% endif %}
 
     <div class="row">
       <span class="archive__item-excerpt" id="price">${{ product.price }}</span>
