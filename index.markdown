@@ -36,6 +36,12 @@ row1:
   image_path: /assets/images/neck1.png
   image_url: product/5
   title: Luxurious Floating Panda
+- alt: placehold text
+  background: '#ffffff'
+  excerpt: $10.99
+  image_path: /assets/images/neck_first.png
+  image_url: product/6
+  title: Touched Too Much
 
 ---
 
