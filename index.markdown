@@ -37,28 +37,28 @@ row1:
   image_url: product/5
   title: Peachy Meadows
 - alt: placehold text
-  background: '#ffffff'
+  background: '#F9E4C4AA'
   excerpt: $95.00
-  image_path: /assets/images/neck_first.png
+  image_path: /assets/images/neck1.png
   image_url: product/6
   title: Constallation Zebra
 row2:
 - alt: placehold text
-  background: '#ffffff'
+  background: '#F9E4C4AA'
   excerpt: $80.00
-  image_path: /assets/images/neck_first.png
+  image_path: /assets/images/neck1.png
   image_url: product/7
   title: Fierce Heart
 - alt: placehold text
-  background: '#ffffff'
+  background: '#F9E4C4AA'
   excerpt: $110.00
-  image_path: /assets/images/neck_first.png
+  image_path: /assets/images/neck1.png
   image_url: product/8
   title: Angel Wing
 - alt: placehold text
-  background: '#ffffff'
+  background: '#F9E4C4AA'
   excerpt: $120.00
-  image_path: /assets/images/neck_first.png
+  image_path: /assets/images/neck1.png
   image_url: product/9
   title: Angel Wings
 

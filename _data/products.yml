@@ -4,24 +4,25 @@
   sizes:
     -
       size: 15
-      price: "0"
+      price: "0.00"
     -
       size: 16
       price: "5.00"
     -
       size: 17
-      price: "5.00"
+      price: "10.00"
   options:
     -
       name: "option is cheap"
-      price: "0"
+      price: "0.00"
     -
       name: "option is expensive"
-      price: "0"
-  details: "materials:
-  - AAA freshwater pearls
-  - Tarnish resistant silver plated wire
-  - Sterling silver or gold filled findings"
+      price: "0.00"
+  materials: 
+    - "AAA freshwater pearls"
+    - "Tarnish resistant silver plated wire"
+    - "Sterling silver or gold filled findings"
+  details: ""
   image: /assets/images/neck1.png
   background: "#C4F9DDAA"
 2:
@@ -30,14 +31,15 @@
   sizes:
     -
       size: 15
-      price: "0"
+      price: "0.00"
     -
       size: 16
       price: "5.00"
-  details: "materials:
-  - AAA freshwater pearls
-  - Tarnish resistant silver plated wire
-  - Sterling silver or gold filled findings"
+  materials: 
+    - "AAA freshwater pearls"
+    - "Tarnish resistant silver plated wire"
+    - "Sterling silver or gold filled findings"
+  details: ""
   image: /assets/images/neck2.png
   background: "#F9C4DEAA"
 3:
@@ -46,15 +48,15 @@
   sizes:
     -
       size: 15.5
-      price: "0"
+      price: "0.00"
     -
       size: 17.5
       price: "5.00"
-  details: " This beauty has showstoping blue greenish turquoise biwa pearls, reminding us of dreamy skies, sea salts, and beachy good times. It is the combination of colour and shape of this pearl which make it difficult to source and a unique piece to add to your collecion. The necklace is available in several lengths, whether you are looking for a longer length layering piece or shorter more elegant stye choker - we gothcu. 
-  materials:
-  - AAA freshwater pearls
-  - Tarnish resistant silver plated wire
-  - Sterling silver or gold filled findings"
+  materials: 
+    - "AAA freshwater pearls"
+    - "Tarnish resistant silver plated wire"
+    - "Sterling silver or gold filled findings"
+  details: "This beauty has showstoping blue greenish turquoise biwa pearls, reminding us of dreamy skies, sea salts, and beachy good times. It is the combination of colour and shape of this pearl which make it difficult to source and a unique piece to add to your collecion. The necklace is available in several lengths, whether you are looking for a longer length layering piece or shorter more elegant stye choker - we gothcu."
   image: /assets/images/neck3.png
   background: "#F9F8C4AA"
 4:
@@ -63,7 +65,7 @@
   sizes:
     -
       size: 15
-      price: "0"
+      price: "0.00"
     -
       size: 16
       price: "5.00"
@@ -73,13 +75,19 @@
   options:
     -
       name: "mathca"
-      price: "0"
+      price: "0.00"
     -
       name: "teddy"
-      price: "0"
+      price: "0.00"
     -
       name: "seaglass"
-      price: "0"
+      price: "0.00"
+  materials:
+    - "AAA freshwater pearls"
+    - "Tarnish resistant silver plated wire"
+    - "Sterling silver or gold filled findings"
+    - "Semi-precious gemstones"
+    - "Glass beads"
   details: "all necklaces contain:
   - AAA freshwater pearls
   - Tarnish resistant silver plated wire
@@ -107,7 +115,7 @@
   sizes:
     -
       size: 15
-      price: "0"
+      price: "0.00"
     -
       size: 16
       price: "5.00"
@@ -126,64 +134,66 @@
       price: "8"
     -
       name: "plain"
-      price: "0"
-  details: "Springtime feels all year round! Choose your length and if you want a bunny friend, flowers, or, aint no shame in plain.
+      price: "0.00"
+  details: "Springtime feels all year round! Choose your length and if you want a bunny friend, flowers, or, aint no shame in plain."
   materials:
-  - AAA freshwater pearls
-  - Tarnish resistant silver plated wire
-  - Sterling silver or gold filled findings"
+    - "AAA freshwater pearls"
+    - "Tarnish resistant silver plated wire"
+    - "Sterling silver or gold filled findings"
   image: /assets/images/neck1.png
   background: "#F9E4C4AA"
 6:
   name: "Constallation Zebra"
   price: "95.00"
-  details: "Necklace measures aprrox. 17\" 
+  details: "Necklace measures aprrox. 17\"" 
   materials:
-  - AAA freshwater pearls
-  - Tarnish resistant silver plated wire
-  - Sterling silver or gold filled findings
-  - Abalone shell star"
-  image: /assets/images/neck_first.png
-  background: "#ffffff"
+    - "AAA freshwater pearls"
+    - "Tarnish resistant silver plated wire"
+    - "Sterling silver or gold filled findings"
+    - "Abalone shell star"
+  image: /assets/images/neck1.png
+  background: "#F9E4C4AA"
 7:
   name: "Fierce Heart"
   price: "80.00"
-  details: "Necklace measures aprrox. 15\" 
+  details: "Necklace measures aprrox. 15\""
   materials:
-  - AAA freshwater pearls
-  - Tarnish resistant silver plated wire
-  - Sterling silver or gold filled findings"
-  image: /assets/images/neck_first.png
-  background: "#ffffff"
+    - "AAA freshwater pearls"
+    - "Tarnish resistant silver plated wire"
+    - "Sterling silver or gold filled findings"
+  image: /assets/images/neck1.png
+  background: "#F9E4C4AA"
 8:
   name: "Angel Wing"
   price: "110.00"
   sizes:
     -
       size: 15
-      price: "0"
+      price: "0.00"
     -
       size: 16
       price: "5.00"
-  details: "materials:
-  - AAA freshwater pearls
-  - Tarnish resistant silver plated wire
-  - Sterling silver or gold filled findings"
-  image: /assets/images/neck_first.png
-  background: "#ffffff"
+  details: ""
+  materials:
+    - "AAA freshwater pearls"
+    - "Tarnish resistant silver plated wire"
+    - "Sterling silver or gold filled findings"
+  image: /assets/images/neck1.png
+  background: "#F9E4C4AA"
 9:
   name: "Angel Wings"
   price: "120.00"
   sizes:
     -
       size: 15
-      price: "0"
+      price: "0.00"
     -
       size: 16
       price: "5.00"
-  details: "materials:
-  - AAA freshwater pearls
-  - Tarnish resistant silver plated wire
-  - Sterling silver or gold filled findings"
-  image: /assets/images/neck_first.png
-  background: "#ffffff"
+  details: ""
+  materials:
+    - "AAA freshwater pearls"
+    - "Tarnish resistant silver plated wire"
+    - "Sterling silver or gold filled findings"
+  image: /assets/images/neck1.png
+  background: "#F9E4C4AA"
