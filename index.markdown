@@ -7,41 +7,60 @@ intro:
 row0:
 - alt: placehold text
   background: '#C4F9DDAA'
-  excerpt: $0.99
+  excerpt: $80.00
   image_path: /assets/images/neck1.png
   image_url: product/1
-  title: Hidden Jaguar
+  title: Galactic Shimmer
 - alt: placehold text
   background: '#F9C4DEAA'
-  excerpt: $79.99
+  excerpt: $150.00
   image_path: /assets/images/neck2.png
   image_url: product/2
-  title: Sullen Dragon
+  title: Flying Smiley
 - alt: placehold text
   background: '#F9F8C4AA'
-  excerpt: $399.99
+  excerpt: $90.00
   image_path: /assets/images/neck3.png
   image_url: product/3
-  title: Delicious Breakfast Sandwhich
+  title: Turquoise Beech
 row1:
 - alt: placehold text
   background: '#CEFBFDAA'
-  excerpt: $40.99
+  excerpt: $80.00
   image_path: /assets/images/neck4.png
   image_url: product/4
-  title: Radical Rubies
+  title: Colour is Good Classic
 - alt: placehold text
   background: '#F9E4C4AA'
-  excerpt: $219.99
+  excerpt: $90.00
   image_path: /assets/images/neck1.png
   image_url: product/5
-  title: Luxurious Floating Panda
+  title: Peachy Meadows
 - alt: placehold text
   background: '#ffffff'
-  excerpt: $10.99
+  excerpt: $95.00
   image_path: /assets/images/neck_first.png
   image_url: product/6
-  title: Touched Too Much
+  title: Constallation Zebra
+row2:
+- alt: placehold text
+  background: '#ffffff'
+  excerpt: $80.00
+  image_path: /assets/images/neck_first.png
+  image_url: product/7
+  title: Fierce Heart
+- alt: placehold text
+  background: '#ffffff'
+  excerpt: $110.00
+  image_path: /assets/images/neck_first.png
+  image_url: product/8
+  title: Angel Wing
+- alt: placehold text
+  background: '#ffffff'
+  excerpt: $120.00
+  image_path: /assets/images/neck_first.png
+  image_url: product/9
+  title: Angel Wings
 
 ---
 
@@ -49,3 +68,4 @@ row1:
 
 {% include cgallery id="row0" %}
 {% include cgallery id="row1" %}
+{% include cgallery id="row2" %}

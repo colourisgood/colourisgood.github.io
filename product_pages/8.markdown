@@ -1,0 +1,6 @@
+---
+layout: product
+title: temp
+permalink: /product/8
+product_id: 8
+---
