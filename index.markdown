@@ -65,13 +65,13 @@ row3:
 - alt: placehold text
   background: '#F9E4C4AA'
   excerpt: $20.00
-  image_path: /assets/images/neck1.png
+  image_path: /assets/images/galacticshimmer.jpg
   image_url: product/10
   title: Double Rainbow Ringzz
 - alt: placehold text
   background: '#F9E4C4AA'
   excerpt: $10.00
-  image_path: /assets/images/neck1.png
+  image_path: /assets/images/galacticshimmer.jpg
   image_url: product/11
   title: Tentacle Thangz
 
