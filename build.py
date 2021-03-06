@@ -49,7 +49,7 @@ for k,v in products.items():
   folder = os.path.dirname(os.path.realpath(__file__))
   raw_path = folder + os.path.join(os.path.join(os.path.dirname(v["image"]),"raw"),os.path.basename(v["image"]))
   im = Image.open(raw_path)
-  im.thumbnail(1000)
+  im.thumbnail((1000,1000))
   im.save(v["image"])
 
 
