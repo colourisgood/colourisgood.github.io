@@ -18,7 +18,7 @@ Colour is Good signifies the possiblity to broaden our scope to see more than ju
 
 Together we are a kaleidoscope of colours worth celebrating. 
 
-Together we radiate light, love, joy, and hope.
+Together we can radiate light, love, joy, and hope.
 
 Thank you for joining me in this colourful journey, I can’t wait to see where it takes us!
 
