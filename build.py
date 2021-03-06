@@ -46,7 +46,8 @@ for k,v in products.items():
   items.append(item)
 
   # convert image if necessary
-  raw_path = os.path.join(os.path.join(os.path.dirname(v["image"]),"raw"),os.path.basename(v["image"]))
+  folder = os.path.dirname(os.path.realpath(__file__))
+  raw_path = folder + os.path.join(os.path.join(os.path.dirname(v["image"]),"raw"),os.path.basename(v["image"]))
   im = Image.open(raw_path)
   im.thumbnail(1000)
   im.save(v["image"])
