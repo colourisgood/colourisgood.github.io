@@ -1,6 +1,6 @@
 import os
 import yaml
-from PIL import image
+from PIL import Image
 
 template = """---
 layout: product
