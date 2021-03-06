@@ -1,5 +1,6 @@
 import os
 import yaml
+from PIL import image
 
 template = """---
 layout: product
@@ -43,6 +44,13 @@ for k,v in products.items():
     "background" : v.get("background", "red")
   }
   items.append(item)
+
+  # convert image if necessary
+  raw_path = os.path.join(os.path.join(os.path.dirname(v["image"]),"raw"),os.path.basename(v["image"]))
+  im = Image.open(raw_path)
+  im.thumbnail(1000)
+  im.save(v["image"])
+
 
 itemsets = [items[i:i+3] for i in range(0,len(items),3)]
 content = {"row" + str(i) : itemset for i,itemset in enumerate(itemsets)}
