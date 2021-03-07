@@ -27,6 +27,10 @@
     - "Sterling silver or gold filled findings"
   details: ""
   image: /assets/images/galacticshimmer.jpg
+  images:
+    - /assets/images/galacticshimmer.jpg
+    - /assets/images/flyingsmiley.jpg
+    - video
   background: "#C4F9DDAA"
 2:
   name: "Flying Smiley"
