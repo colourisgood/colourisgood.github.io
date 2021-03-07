@@ -4,6 +4,36 @@ layout: splash
 {% assign product = site.data.products[page.product_id] %}
 
 <script>
+
+  var slideIndex = 1;
+
+  // Next/previous controls
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  // Thumbnail image controls
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
+
+
   function update_price() {
     var size = document.getElementById("size");
     var size_cost = 0;
@@ -25,14 +55,54 @@ layout: splash
     document.getElementById("paypal_note").value = "[size] : " + size_description + "    [option] : " + option_description;
     console.log( document.getElementById("paypal_note").value );
   }
-  window.onload = update_price;
+
+
+  function init() {
+    update_price();
+    showSlides(slideIndex);
+  }
+
+  window.onload = init;
+
+
+
 </script>
 
 
 <div class="flex-grid">
+
+  <!-- Slideshow container -->
   <div class="col">
-    <img src="{{ product.image }}">
+    {% if product.images %}
+    <div class="slideshow-container">
+      {% for image in product.images %}
+        <div class="mySlides fade">
+          <div class="numbertext">{{forloop.index}}</div>
+          {% if image == "video" %}
+            <video width="480" height="280" controls autoplay="autoplay" muted="muted">
+              <source src="https://gitlab.com/jeffreyjohnens/test_video/-/raw/master/MMM_DEMO.mp4" type="video/mp4">
+            </video>
+          {% else %}
+            <img src="{{image}}" style="width:500px">
+          {% endif %}
+          
+          <div class="text">Caption Text</div>
+        </div>
+      {% endfor %}
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+      {% for image in product.images %}
+        <span class="dot" onclick="currentSlide({{ forloop.index }})"></span>
+      {% endfor %}
+    </div>
+    {% else %}
+      <img src="{{ product.image }}">
+    {% endif %}
   </div>
+
   <div class="col">
     <div class="row">
       <span class="archive__item-title">{{ product.name }}<span>
