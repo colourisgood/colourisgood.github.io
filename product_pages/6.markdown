@@ -1,6 +1,6 @@
 ---
 layout: product
-title: temp
+title: Constallation Zebra
 permalink: /product/6
 product_id: 6
 ---

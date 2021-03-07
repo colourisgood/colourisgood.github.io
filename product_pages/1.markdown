@@ -1,6 +1,6 @@
 ---
 layout: product
-title: temp
+title: Galactic Shimmer
 permalink: /product/1
 product_id: 1
 ---

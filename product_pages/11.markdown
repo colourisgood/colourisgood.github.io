@@ -1,6 +1,6 @@
 ---
 layout: product
-title: temp
+title: Tentacle Thangz
 permalink: /product/11
 product_id: 11
 ---

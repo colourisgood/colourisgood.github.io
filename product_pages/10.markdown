@@ -1,6 +1,6 @@
 ---
 layout: product
-title: temp
+title: Double Rainbow Ringzz
 permalink: /product/10
 product_id: 10
 ---

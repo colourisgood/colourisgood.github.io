@@ -16,7 +16,7 @@ with open("_data/products.yml") as file:
 os.makedirs("product_pages", exist_ok=True)
 for k,v in products.items():
   with open("product_pages/{}.markdown".format(k), "w") as f:
-    f.write( template.format(product_id=k) )
+    f.write( template.format(product_id=k,name=v["name"]) )
 
 template = """---
 layout: splash
