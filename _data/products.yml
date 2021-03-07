@@ -28,9 +28,15 @@
   details: ""
   image: /assets/images/galacticshimmer.jpg
   images:
-    - /assets/images/galacticshimmer.jpg
-    - /assets/images/flyingsmiley.jpg
-    - video
+    - 
+      path: /assets/images/galacticshimmer.jpg
+      caption: ""
+    - 
+      path: /assets/images/flyingsmiley.jpg
+      caption: ""
+    - 
+      path: video
+      caption: ""
   background: "#C4F9DDAA"
 2:
   name: "Flying Smiley"
@@ -98,8 +104,15 @@
     - "Glass beads"
   image: /assets/images/matcha.jpg
   images: 
-    - /assets/images/matcha.jpg
-    - /assets/images/teddy.jpg
+    - 
+      path: /assets/images/matcha.jpg
+      caption: "mathca"
+    - 
+      path: /assets/images/teddy.jpg
+      caption: "teddy"
+    - 
+      path: /assets/images/teddy.jpg
+      caption: "seaglass"
   background: "#CEFBFDAA"
 5:
   name: "Peachy Meadows"
@@ -127,6 +140,13 @@
     - "Tarnish resistant silver plated wire"
     - "Sterling silver or gold filled findings"
   image: /assets/images/peachymeadowsandfriends.jpg
+  images: 
+    - 
+      path: /assets/images/peachymeadowsandfriends.jpg
+      caption: "bunny & flowers"
+    -
+      path: /assets/images/peachymeadows_plain.jpg
+      caption: "plain"
   background: "#F9E4C4AA"
 6:
   name: "Constallation Zebra"
