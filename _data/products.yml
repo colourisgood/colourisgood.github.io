@@ -55,6 +55,10 @@
     - "Ceramic smiley bead"
   details: ""
   image: /assets/images/flyingsmiley.jpg
+  images: 
+    - 
+      path: /assets/images/flyingsmiley.jpg
+      caption: ""
   background: "#F9C4DEAA"
 3:
   name: "Turquoise Beech"
@@ -72,6 +76,10 @@
     - "Sterling silver or gold filled findings"
   details: "This beauty has showstoping blue greenish turquoise biwa pearls, reminding us of dreamy skies, sea salts, and beachy good times. It is the combination of colour and shape of this pearl which make it difficult to source and a unique piece to add to your collecion. The necklace is available in two lengths, whether you are looking for a longer layering piece or shorter more elegant stye choker - we gothcu."
   image: /assets/images/beech.jpg
+  images: 
+    - 
+      path: /assets/images/beech.jpg
+      caption: ""
   background: "#F9F8C4AA"
 4:
   name: "Colour is Good Classic"
@@ -161,6 +169,10 @@
     - "Gemstones"
     - "Glass beads"
   image: /assets/images/zebrastar.jpg
+  images: 
+    - 
+      path: /assets/images/zebrastar.jpg
+      caption: ""
   background: "#F9E4C4AA"
 7:
   name: "Fierce Heart"
@@ -175,6 +187,10 @@
     - "Gemstones"
     - "Glass beads"
   image: /assets/images/fierceheart.jpg
+  images: 
+    - 
+      path: /assets/images/fierceheart.jpg
+      caption: ""
   background: "#F9E4C4AA"
 8:
   name: "Wing Divine"
@@ -193,6 +209,10 @@
     - "Tarnish resistant silver plated wire"
     - "Sterling silver or gold filled findings"
   image: /assets/images/wingdivine.jpg
+  images: 
+    - 
+      path: /assets/images/wingdivine.jpg
+      caption: ""
   background: "#F9E4C4AA"
 9:
   name: "Angel WingZ"
@@ -210,6 +230,10 @@
     - "Tarnish resistant silver plated wire"
     - "Sterling silver or gold filled findings"
   image: /assets/images/angelwingz2.jpg
+  images: 
+    - 
+      path: /assets/images/angelwingz2.jpg
+      caption: ""
   background: "#F9E4C4AA"
 10:
   name: "Double Rainbow Ringzz"
@@ -228,6 +252,10 @@
     - "Tarnish resistant silver plated wire"
     - "Glass beads"
   image: /assets/images/galacticshimmer.jpg
+  images: 
+    - 
+      path: /assets/images/galacticshimmer.jpg
+      caption: ""
   background: "#F9E4C4AA"
 11:
   name: "Tentacle Thangz"
@@ -258,4 +286,8 @@
     - "Glass beads"
     - "star Abalone shell in STARZ & DEEP SPACE"
   image: /assets/images/galacticshimmer.jpg
+  images: 
+    - 
+      path: /assets/images/galacticshimmer.jpg
+      caption: ""
   background: "#F9E4C4AA"

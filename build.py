@@ -45,7 +45,7 @@ def convert_image(path):
 items = []
 for k,v in products.items():
   item = {
-    "image_path" : v["image"],
+    "image_path" : v["images"][0]["path"],
     "image_url" : "product/{}".format(k),
     "alt" : "placehold text",
     "title" : v["name"],
@@ -55,7 +55,7 @@ for k,v in products.items():
   items.append(item)
 
   # convert images
-  convert_image(v["image"])
+  #convert_image(v["image"])
   for image in v.get("images",[]):
     print(image)
     if not image["path"] == "video":
