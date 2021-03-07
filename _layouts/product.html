@@ -73,7 +73,7 @@ layout: splash
 
   <!-- Slideshow container -->
   <div class="col">
-    {% if product.images %}
+    {% if product.images.size > 1 %}
     <div class="slideshow-container">
       {% for image in product.images %}
         <div class="mySlides fade">
@@ -99,7 +99,7 @@ layout: splash
       {% endfor %}
     </div>
     {% else %}
-      <img src="{{ product.image }}">
+      <img src="{{ product.images[0].path }}">
     {% endif %}
   </div>
 
