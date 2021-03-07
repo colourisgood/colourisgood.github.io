@@ -32,6 +32,15 @@ intro:
 {rows}
 """
 
+def convert_image(path):
+  # convert image if necessary
+  folder = os.path.dirname(os.path.realpath(__file__))
+  raw_folder = os.path.join(os.path.dirname(path),"raw")
+  raw_path = os.path.join(raw_folder,os.path.basename(path))
+  im = Image.open(folder + raw_path)
+  im.thumbnail((1000,1000))
+  im.save(folder + path)
+
 
 items = []
 for k,v in products.items():
@@ -45,13 +54,10 @@ for k,v in products.items():
   }
   items.append(item)
 
-  # convert image if necessary
-  folder = os.path.dirname(os.path.realpath(__file__))
-  raw_folder = os.path.join(os.path.dirname(v["image"]),"raw")
-  raw_path = os.path.join(raw_folder,os.path.basename(v["image"]))
-  im = Image.open(folder + raw_path)
-  im.thumbnail((1000,1000))
-  im.save(folder + v["image"])
+  # convert images
+  convert_image(v["image"])
+  for path in v.get("images",[]):
+    convert_image(path)
 
 
 itemsets = [items[i:i+3] for i in range(0,len(items),3)]
