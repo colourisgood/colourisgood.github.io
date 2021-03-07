@@ -4,7 +4,7 @@ from PIL import Image
 
 template = """---
 layout: product
-title: Colour is Good
+title: {name}
 permalink: /product/{product_id}
 product_id: {product_id}
 ---"""
