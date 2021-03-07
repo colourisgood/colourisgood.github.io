@@ -57,7 +57,8 @@ for k,v in products.items():
   # convert images
   convert_image(v["image"])
   for path in v.get("images",[]):
-    convert_image(path)
+    if not path == "video":
+      convert_image(path)
 
 
 itemsets = [items[i:i+3] for i in range(0,len(items),3)]
