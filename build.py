@@ -57,6 +57,7 @@ for k,v in products.items():
   # convert images
   convert_image(v["image"])
   for image in v.get("images",[]):
+    print(image)
     if not image["path"] == "video":
       convert_image(image["path"])
 
