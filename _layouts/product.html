@@ -78,15 +78,15 @@ layout: splash
       {% for image in product.images %}
         <div class="mySlides fade">
           <div class="numbertext">{{forloop.index}}</div>
-          {% if image == "video" %}
+          {% if image.path == "video" %}
             <video width="480" height="280" controls autoplay="autoplay" muted="muted">
               <source src="https://gitlab.com/jeffreyjohnens/test_video/-/raw/master/MMM_DEMO.mp4" type="video/mp4">
             </video>
           {% else %}
-            <img src="{{image}}" style="width:500px">
+            <img src="{{image.path}}" style="width:500px">
           {% endif %}
           
-          <div class="text">Caption Text</div>
+          <div class="text">{{image.caption}}</div>
         </div>
       {% endfor %}
       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -146,6 +146,7 @@ layout: splash
       </ul>
     {% endif %}   
     
+    <!--
     <form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
       <input type="hidden" name="cmd" value="_s-xclick">
       <input type="hidden" name="hosted_button_id" value="VFECZ4KG25HS6">
@@ -155,9 +156,7 @@ layout: splash
       <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
       <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
     </form>
-      
-      
-      
+    -->
     
     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin-left:-20px">
       <input type="hidden" name="cmd" value="_cart">
@@ -173,6 +172,11 @@ layout: splash
       <input type="hidden" name="shipping" value="0.00">
       <input type="hidden" name="add" value="1">
       <input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest">
+      
+      <table style="display:none">
+      <tr><td><input type="hidden" name="on0" value="notes">notes</td></tr><tr><td><input type="text" name="os0" maxlength="200" id="paypal_note"></td></tr>
+      </table>
+
       <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
       <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
     </form>
