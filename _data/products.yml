@@ -97,6 +97,9 @@
     - "Semi-precious gemstones; MATCHA features jade & hemimorphite, TEDDY features garnet, SEAGLASS features apatite & jade."
     - "Glass beads"
   image: /assets/images/matcha.jpg
+  images: 
+    - /assets/images/matcha.jpg
+    - /assets/images/teddy.jpg
   background: "#CEFBFDAA"
 5:
   name: "Peachy Meadows"
@@ -165,6 +168,7 @@
       price: "5.00"
   details: ""
   materials:
+    - "Aquamarine"
     - "AAA freshwater pearls"
     - "Tarnish resistant silver plated wire"
     - "Sterling silver or gold filled findings"
