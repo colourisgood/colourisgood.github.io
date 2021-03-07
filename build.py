@@ -55,10 +55,10 @@ for k,v in products.items():
   items.append(item)
 
   # convert images
-  convert_image(v["image"])
-  for path in v.get("images",[]):
-    if not path == "video":
-      convert_image(path)
+  convert_image(v["image"]["path"])
+  for image in v.get("images",[]):
+    if not image["path"] == "video":
+      convert_image(image["path"])
 
 
 itemsets = [items[i:i+3] for i in range(0,len(items),3)]
