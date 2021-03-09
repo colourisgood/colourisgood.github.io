@@ -28,10 +28,10 @@
   details: ""
   images:
     - 
-      path: /assets/images/galacticshimmer.jpg
+      path: /assets/images/galacticshimmer_face.jpg
       caption: ""
     - 
-      path: /assets/images/flyingsmiley.jpg
+      path: /assets/images/galacticshimmer.jpg
       caption: ""
     - 
       path: video
@@ -77,6 +77,9 @@
     - 
       path: /assets/images/beech.jpg
       caption: ""
+    -
+      path: /assets/images/turquoise_face.jpg
+      caption: ""
   background: "#F9F8C4AA"
 4:
   name: "Colour is Good Classic"
@@ -111,11 +114,15 @@
     - 
       path: /assets/images/matcha.jpg
       caption: "mathca"
+    -
+      path: /assets/images/matcha_neck.jpg
+      caption: "mathca"
+
     - 
       path: /assets/images/teddy.jpg
       caption: "teddy"
     - 
-      path: /assets/images/teddy.jpg
+      path: /assets/images/seaglass_neck.jpg
       caption: "seaglass"
   background: "#CEFBFDAA"
 5:
@@ -143,12 +150,20 @@
     - "AAA freshwater pearls"
     - "Tarnish resistant silver plated wire"
     - "Sterling silver or gold filled findings"
+    - "Gemstones"
+    - "Glass beads"
   images: 
     - 
       path: /assets/images/peachymeadowsandfriends.jpg
       caption: "bunny & flowers"
     -
       path: /assets/images/peachymeadows_plain.jpg
+      caption: "plain"
+    -
+      path: /assets/images/plain_neck.jpg
+      caption: "plain"
+    -
+      path: /assets/images/plain_face.jpg
       caption: "plain"
   background: "#F9E4C4AA"
 6:
@@ -225,6 +240,9 @@
     - 
       path: /assets/images/angelwingz2.jpg
       caption: ""
+    - 
+      path: /assets/images/angelwingz_face.jpg
+      caption: ""
   background: "#F9E4C4AA"
 10:
   name: "Double Rainbow Ringzz"
@@ -244,8 +262,11 @@
     - "Glass beads"
   images: 
     - 
-      path: /assets/images/galacticshimmer.jpg
-      caption: ""
+      path: /assets/images/pearly.png
+      caption: "pearly"
+    - 
+      path: /assets/images/unicorn.png
+      caption: "unicorn"
   background: "#F9E4C4AA"
 11:
   name: "Tentacle Thangz"
@@ -277,6 +298,6 @@
     - "star Abalone shell in STARZ & DEEP SPACE"
   images: 
     - 
-      path: /assets/images/galacticshimmer.jpg
+      path: /assets/images/smileyring_face.jpg
       caption: ""
   background: "#F9E4C4AA"

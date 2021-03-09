@@ -8,7 +8,7 @@ row0:
 - alt: placehold text
   background: '#C4F9DDAA'
   excerpt: $80.00
-  image_path: /assets/images/galacticshimmer.jpg
+  image_path: /assets/images/galacticshimmer_face.jpg
   image_url: product/1
   title: Galactic Shimmer
 - alt: placehold text
@@ -65,13 +65,13 @@ row3:
 - alt: placehold text
   background: '#F9E4C4AA'
   excerpt: $20.00
-  image_path: /assets/images/galacticshimmer.jpg
+  image_path: /assets/images/pearly.png
   image_url: product/10
   title: Double Rainbow Ringzz
 - alt: placehold text
   background: '#F9E4C4AA'
   excerpt: $10.00
-  image_path: /assets/images/galacticshimmer.jpg
+  image_path: /assets/images/smileyring_face.jpg
   image_url: product/11
   title: Tentacle Thangz
 
