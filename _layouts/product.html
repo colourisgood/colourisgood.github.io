@@ -76,9 +76,9 @@ layout: splash
       {% for image in product.images %}
         <div class="mySlides fade">
           <div class="numbertext">{{forloop.index}}</div>
-          {% if image.path == "video" %}
+          {% if image.video %}
             <video width="480" height="280" controls autoplay="autoplay" muted="muted">
-              <source src="https://gitlab.com/jeffreyjohnens/test_video/-/raw/master/MMM_DEMO.mp4" type="video/mp4">
+              <source src="{{image.path}}" type="video/mp4">
             </video>
           {% else %}
             <img src="{{image.path}}" style="width:500px">
