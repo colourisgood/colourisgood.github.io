@@ -302,6 +302,9 @@
       path: /assets/images/smileyring_face.jpg
       caption: ""
     - 
+      path: /assets/images/all.jpeg
+      caption: ""
+    - 
       path: https://gitlab.com/colourisgood/colourisgood_website_video/-/raw/master/web/ringz.mp4
       caption: ""
       video: True
