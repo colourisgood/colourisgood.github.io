@@ -34,8 +34,9 @@
       path: /assets/images/galacticshimmer.jpg
       caption: ""
     - 
-      path: video
+      path: https://gitlab.com/colourisgood/colourisgood_website_video/-/raw/master/web/ringz.mp4
       caption: ""
+      video: True
   background: "#C4F9DDAA"
 2:
   name: "Flying Smiley"
