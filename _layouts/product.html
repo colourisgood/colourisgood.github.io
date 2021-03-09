@@ -64,8 +64,6 @@ layout: splash
 
   window.onload = init;
 
-
-
 </script>
 
 
@@ -128,35 +126,10 @@ layout: splash
       </select>
     {% endif %}
 
+    </br>
     <div class="row">
       <span class="archive__item-excerpt" id="price">${{ product.price }}</span>
     </div>
-    <br/><br/>
-
-    <div class="row">
-      <p class="archive__item-excerpt">{{ product.details }}</p>
-    </div>
-
-    {% if product.materials %}
-      <label for="material_list">Materials:</label>
-      <ul name="materials_list" id="materials_list">
-      {% for material in product.materials %}
-        <li>{{material}}</li>
-      {% endfor %}
-      </ul>
-    {% endif %}   
-    
-    <!--
-    <form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
-      <input type="hidden" name="cmd" value="_s-xclick">
-      <input type="hidden" name="hosted_button_id" value="VFECZ4KG25HS6">
-      <table style="display:none">
-      <tr><td><input type="hidden" name="on0" value="notes">notes</td></tr><tr><td><input type="text" name="os0" maxlength="200" id="paypal_note"></td></tr>
-      </table>
-      <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-      <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
-    </form>
-    -->
     
     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin-left:-20px">
       <input type="hidden" name="cmd" value="_cart">
@@ -180,5 +153,55 @@ layout: splash
       <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
       <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
     </form>
+    
+    <br/>
+
+    <div class="row">
+      <p class="archive__item-excerpt">{{ product.details }}</p>
+    </div>
+
+    {% if product.materials %}
+      <label for="material_list">Materials:</label>
+      <ul name="materials_list" id="materials_list">
+      {% for material in product.materials %}
+        <li>{{material}}</li>
+      {% endfor %}
+      </ul>
+    {% endif %}   
+
+    <div class="row">
+      <p class="archive__item-excerpt">For information on jewelry care, <a href="{{ site.baseurl }}{% link jewelry_care.markdown %}" style="color:#0b46d2">click here</a>.</p>
+    </div>
+    
+    
+    <!--
+    <form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="VFECZ4KG25HS6">
+      <table style="display:none">
+      <tr><td><input type="hidden" name="on0" value="notes">notes</td></tr><tr><td><input type="text" name="os0" maxlength="200" id="paypal_note"></td></tr>
+      </table>
+      <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+    -->
+
+    <form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="NHPM9UYWY2HUJ">
+      <div class="row">
+        <label for="size">Size:</label>
+        <select name="os0">
+          <option value="Red">Red $10.00 USD</option>
+          <option value="Blue">Blue $8.00 USD</option>
+          <option value="Green">Green $12.00 USD</option>
+        </select>
+      </div>
+      <input type="hidden" name="currency_code" value="USD">
+      <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+    
+    
   </div>
 </div>
