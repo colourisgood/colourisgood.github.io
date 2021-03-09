@@ -33,7 +33,7 @@ row1:
 - alt: placehold text
   background: '#F9E4C4AA'
   excerpt: $90.00
-  image_path: /assets/images/peachymeadowsandfriends.jpg
+  image_path: /assets/images/plain_face.jpg
   image_url: product/5
   title: Peachy Meadows
 - alt: placehold text

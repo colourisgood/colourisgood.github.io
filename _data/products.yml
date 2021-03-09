@@ -154,17 +154,17 @@
     - "Glass beads"
   images: 
     - 
-      path: /assets/images/peachymeadowsandfriends.jpg
-      caption: "bunny & flowers"
-    -
-      path: /assets/images/peachymeadows_plain.jpg
+      path: /assets/images/plain_face.jpg
       caption: "plain"
     -
       path: /assets/images/plain_neck.jpg
       caption: "plain"
     -
-      path: /assets/images/plain_face.jpg
+      path: /assets/images/peachymeadows_plain.jpg
       caption: "plain"
+    -
+      path: /assets/images/peachymeadowsandfriends.jpg
+      caption: "bunny & flowers"
   background: "#F9E4C4AA"
 6:
   name: "Constallation Zebra"
@@ -290,7 +290,7 @@
     -
       name: "deep space"
       price: "5.00"
-  details: "**currently only shipping within Canada** SEA & FUSCHIA are approx. size 6. SMILEZ are approx. size 6. DEEP SPACE is approx. 6.5. There are two options for STARZ, aprrox. size 5 and 6.5. Due to the irregular shape of the pearls, ring size can not be exact and are an approximation."
+  details: "<b>currently only shipping within Canada</b><br>SEA & FUSCHIA are approx. size 6.<br>SMILEZ are approx. size 6.<br>DEEP SPACE is approx. 6.5.<br>There are two options for STARZ, aprrox. size 5 and 6.5.<br>Due to the irregular shape of the pearls, ring size can not be exact and are an approximation."
   materials:
     - "AAA freshwater pearls"
     - "Tarnish resistant silver plated wire"
