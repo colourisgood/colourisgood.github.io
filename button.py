@@ -25,14 +25,23 @@ def create_button():
     -d L_OPTION0SELECT2=Green \
     -d L_OPTION0PRICE0=10.00 \
     -d L_OPTION0PRICE1=8.00 \
-    -d L_OPTION0PRICE2=12.00
+    -d L_OPTION0PRICE2=12.00 \
+    -d OPTION1NAME=Other \
+    -d L_OPTION1SELECT0=Red \
+    -d L_OPTION1SELECT1=Blue \
+    -d L_OPTION1SELECT2=Green \
+    -d L_OPTION1PRICE0=10.00 \
+    -d L_OPTION1PRICE1=8.00 \
+    -d L_OPTION1PRICE2=12.00
   """
 
   output = check_output(command,shell=True)
   output = output.decode('utf-8')
-  print(output)
   output = output.split('WEBSITECODE=')[1].split("&EMAILLINK")[0]
   html = unquote(output).strip()
+
+  # make changes to the formating here 
+
   return html
 
 
