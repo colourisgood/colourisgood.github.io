@@ -1,6 +1,7 @@
 import os
 import yaml
 from PIL import Image
+from button import create_button
 
 template = """---
 layout: product
@@ -55,10 +56,22 @@ for k,v in products.items():
   items.append(item)
 
   # convert images
-  for image in v.get("images",[]):
-    if image.get("video",None) is None:
-      convert_image(image["path"])
+  #for image in v.get("images",[]):
+  #  if image.get("video",None) is None:
+  #    convert_image(image["path"])
+  
+  # make the buttons
+  # combine the options
+  options = copy.deepcopy(v["options"])
+  if len(options) == 0:
+    options = {"name":"", "price":"0.00"}
+  
+  
+  
+  
 
+  exit()
+  print( create_button( options ) )
 
 itemsets = [items[i:i+3] for i in range(0,len(items),3)]
 content = {"row" + str(i) : itemset for i,itemset in enumerate(itemsets)}
