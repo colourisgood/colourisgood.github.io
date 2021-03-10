@@ -6,68 +6,68 @@ intro:
   - excerpt: 'encounter colour'
 row0:
 - alt: placehold text
-  background: '#C4F9DDAA'
-  excerpt: $80.00
-  image_path: /assets/images/galacticshimmer_face.jpg
-  image_url: product/1
-  title: Galactic Shimmer
-- alt: placehold text
   background: '#F9C4DEAA'
   excerpt: $150.00
   image_path: /assets/images/flyingsmiley.jpg
-  image_url: product/2
+  image_url: product/1
   title: Flying Smiley
 - alt: placehold text
-  background: '#F9F8C4AA'
+  background: '#F9E4C4AA'
   excerpt: $90.00
-  image_path: /assets/images/beech.jpg
-  image_url: product/3
-  title: Turquoise Beech
-row1:
+  image_path: /assets/images/zebrastar.jpg
+  image_url: product/2
+  title: Constallation Zebra
 - alt: placehold text
   background: '#CEFBFDAA'
   excerpt: $80.00
-  image_path: /assets/images/matcha.jpg
-  image_url: product/4
+  image_path: /assets/images/matcha_neck.jpg
+  image_url: product/3
   title: Colour is Good Classic
+row1:
 - alt: placehold text
   background: '#F9E4C4AA'
   excerpt: $90.00
   image_path: /assets/images/plain_face.jpg
-  image_url: product/5
+  image_url: product/4
   title: Peachy Meadows
-- alt: placehold text
-  background: '#F9E4C4AA'
-  excerpt: $95.00
-  image_path: /assets/images/zebrastar.jpg
-  image_url: product/6
-  title: Constallation Zebra
-row2:
 - alt: placehold text
   background: '#F9E4C4AA'
   excerpt: $80.00
   image_path: /assets/images/fierceheart.jpg
-  image_url: product/7
+  image_url: product/5
   title: Fierce Heart
 - alt: placehold text
   background: '#F9E4C4AA'
   excerpt: $110.00
   image_path: /assets/images/wingdivine.jpg
-  image_url: product/8
+  image_url: product/6
   title: Wing Divine
+row2:
 - alt: placehold text
   background: '#F9E4C4AA'
   excerpt: $120.00
   image_path: /assets/images/angelwingz2.jpg
-  image_url: product/9
+  image_url: product/7
   title: Angel WingZ
-row3:
+- alt: placehold text
+  background: '#F9F8C4AA'
+  excerpt: $95.00
+  image_path: /assets/images/beech.jpg
+  image_url: product/8
+  title: Glass Ocean
 - alt: placehold text
   background: '#F9E4C4AA'
   excerpt: $20.00
   image_path: /assets/images/pearly.png
-  image_url: product/10
+  image_url: product/9
   title: Double Rainbow Ringzz
+row3:
+- alt: placehold text
+  background: '#C4F9DDAA'
+  excerpt: $80.00
+  image_path: /assets/images/galacticshimmer_face.jpg
+  image_url: product/10
+  title: Galactic Shimmer
 - alt: placehold text
   background: '#F9E4C4AA'
   excerpt: $10.00

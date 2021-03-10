@@ -1,6 +1,6 @@
 ---
 layout: product
-title: Colour is Good Classic
+title: Peachy Meadows
 permalink: /product/4
 product_id: 4
 ---

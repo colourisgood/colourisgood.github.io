@@ -1,6 +1,6 @@
 ---
 layout: product
-title: Flying Smiley
+title: Constallation Zebra
 permalink: /product/2
 product_id: 2
 ---

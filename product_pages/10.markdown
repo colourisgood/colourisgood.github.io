@@ -1,6 +1,6 @@
 ---
 layout: product
-title: Double Rainbow Ringzz
+title: Galactic Shimmer
 permalink: /product/10
 product_id: 10
 ---

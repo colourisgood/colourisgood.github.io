@@ -1,6 +1,6 @@
 ---
 layout: product
-title: Angel WingZ
+title: Double Rainbow Ringzz
 permalink: /product/9
 product_id: 9
 ---

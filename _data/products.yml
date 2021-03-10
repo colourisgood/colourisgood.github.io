@@ -1,40 +1,4 @@
 1:
-  name: "Galactic Shimmer"
-  price: "80.00"
-  sizes:
-    -
-      size: 15
-      price: "0.00"
-    -
-      size: 16
-      price: "5.00"
-    -
-      size: 17
-      price: "10.00"
-    -
-      size: 18
-      price: "15.00"
-  options:
-    -
-      name: "option is cheap"
-      price: "0.00"
-    -
-      name: "option is expensive"
-      price: "0.00"
-  materials: 
-    - "Grey silver rainbow AAA freshwater pearls"
-    - "Tarnish resistant silver plated wire"
-    - "Sterling silver or gold filled findings"
-  details: ""
-  images:
-    - 
-      path: /assets/images/galacticshimmer_face.jpg
-      caption: ""
-    - 
-      path: /assets/images/galacticshimmer.jpg
-      caption: ""
-  background: "#C4F9DDAA"
-2:
   name: "Flying Smiley"
   price: "150.00"
   sizes:
@@ -55,30 +19,27 @@
       path: /assets/images/flyingsmiley.jpg
       caption: ""
   background: "#F9C4DEAA"
-3:
-  name: "Turquoise Beech"
+2:
+  name: "Constallation Zebra"
   price: "90.00"
-  sizes:
-    -
-      size: 15.5
-      price: "0.00"
-    -
-      size: 17.5
-      price: "5.00"
-  materials: 
+  details: "Necklace measures aprrox. 17\"" 
+  materials:
     - "AAA freshwater pearls"
     - "Tarnish resistant silver plated wire"
     - "Sterling silver or gold filled findings"
-  details: "This beauty has showstoping blue greenish turquoise biwa pearls, reminding us of dreamy skies, sea salts, and beachy good times. It is the combination of colour and shape of this pearl which make it difficult to source and a unique piece to add to your collecion. The necklace is available in two lengths, whether you are looking for a longer layering piece or shorter more elegant stye choker - we gothcu."
+    - "Abalone shell star"
+    - "Ceramic dice"
+    - "Gemstones"
+    - "Glass beads"
   images: 
     - 
-      path: /assets/images/beech.jpg
+      path: /assets/images/zebrastar.jpg
       caption: ""
     -
-      path: /assets/images/turquoise_face.jpg
+      path: /assets/images/zebra_shadow.jpg
       caption: ""
-  background: "#F9F8C4AA"
-4:
+  background: "#F9E4C4AA"
+3:
   name: "Colour is Good Classic"
   price: "80.00"
   sizes:
@@ -109,20 +70,20 @@
     - "Glass beads"
   images: 
     - 
-      path: /assets/images/matcha.jpg
-      caption: "mathca"
-    -
       path: /assets/images/matcha_neck.jpg
       caption: "mathca"
+    -
+      path: /assets/images/matcha.jpg
+      caption: "mathca 17\""
 
     - 
       path: /assets/images/teddy.jpg
       caption: "teddy"
     - 
       path: /assets/images/seaglass_neck.jpg
-      caption: "seaglass"
+      caption: "seaglass 16\""
   background: "#CEFBFDAA"
-5:
+4:
   name: "Peachy Meadows"
   price: "90.00"
   sizes:
@@ -152,10 +113,10 @@
   images: 
     - 
       path: /assets/images/plain_face.jpg
-      caption: "plain"
+      caption: "plain 15\""
     -
       path: /assets/images/plain_neck.jpg
-      caption: "plain"
+      caption: "plain 15\""
     -
       path: /assets/images/peachymeadows_plain.jpg
       caption: "plain"
@@ -163,24 +124,7 @@
       path: /assets/images/peachymeadowsandfriends.jpg
       caption: "bunny & flowers"
   background: "#F9E4C4AA"
-6:
-  name: "Constallation Zebra"
-  price: "95.00"
-  details: "Necklace measures aprrox. 17\"" 
-  materials:
-    - "AAA freshwater pearls"
-    - "Tarnish resistant silver plated wire"
-    - "Sterling silver or gold filled findings"
-    - "Abalone shell star"
-    - "Ceramic dice"
-    - "Gemstones"
-    - "Glass beads"
-  images: 
-    - 
-      path: /assets/images/zebrastar.jpg
-      caption: ""
-  background: "#F9E4C4AA"
-7:
+5:
   name: "Fierce Heart"
   price: "80.00"
   details: "Necklace measures aprrox. 15\""
@@ -197,7 +141,7 @@
       path: /assets/images/fierceheart.jpg
       caption: ""
   background: "#F9E4C4AA"
-8:
+6:
   name: "Wing Divine"
   price: "110.00"
   sizes:
@@ -218,7 +162,7 @@
       path: /assets/images/wingdivine.jpg
       caption: ""
   background: "#F9E4C4AA"
-9:
+7:
   name: "Angel WingZ"
   price: "120.00"
   sizes:
@@ -239,9 +183,32 @@
       caption: ""
     - 
       path: /assets/images/angelwingz_face.jpg
-      caption: ""
+      caption: "15\""
   background: "#F9E4C4AA"
-10:
+8:
+  name: "Glass Ocean"
+  price: "95.00"
+  sizes:
+    -
+      size: 15.5
+      price: "0.00"
+    -
+      size: 17.5
+      price: "10.00"
+  materials: 
+    - "AAA freshwater pearls"
+    - "Tarnish resistant silver plated wire"
+    - "Sterling silver or gold filled findings"
+  details: "This beauty has showstoping blue greenish turquoise biwa pearls, reminding us of dreamy skies, sea salts, and beachy good times. It is the combination of colour and shape of this pearl which make it difficult to source and a unique piece to add to your collecion. The necklace is available in two lengths, whether you are looking for a longer layering piece or shorter more elegant stye choker - we gothcu."
+  images: 
+    - 
+      path: /assets/images/beech.jpg
+      caption: ""
+    -
+      path: /assets/images/turquoise_face.jpg
+      caption: ""
+  background: "#F9F8C4AA"
+9:
   name: "Double Rainbow Ringzz"
   price: "20.00"
   options:
@@ -269,6 +236,42 @@
       caption: ""
       video: True
   background: "#F9E4C4AA"
+10:
+  name: "Galactic Shimmer"
+  price: "80.00"
+  sizes:
+    -
+      size: 15
+      price: "0.00"
+    -
+      size: 16
+      price: "5.00"
+    -
+      size: 17
+      price: "10.00"
+    -
+      size: 18
+      price: "15.00"
+  options:
+    -
+      name: "option is cheap"
+      price: "0.00"
+    -
+      name: "option is expensive"
+      price: "0.00"
+  materials: 
+    - "Grey silver rainbow AAA freshwater pearls"
+    - "Tarnish resistant silver plated wire"
+    - "Sterling silver or gold filled findings"
+  details: ""
+  images:
+    - 
+      path: /assets/images/galacticshimmer_face.jpg
+      caption: "16 \""
+    - 
+      path: /assets/images/galacticshimmer.jpg
+      caption: ""
+  background: "#C4F9DDAA"
 11:
   name: "Tentacle Thangz"
   price: "10.00"
@@ -291,7 +294,7 @@
     -
       name: "deep space"
       price: "5.00"
-  details: "<b>currently only shipping within Canada</b><br>SEA & FUSCHIA are approx. size 6.<br>SMILEZ are approx. size 6.<br>DEEP SPACE is approx. 6.5.<br>There are two options for STARZ, aprrox. size 5 and 6.5.<br>Due to the irregular shape of the pearls, ring size can not be exact and are an approximation."
+  details: "<b>currently only shipping within Canada</b><br>SEA & FUSCHIA are approx. size 6.<br>SMILEZ are approx. size 6.<br>DEEP SPACE (dark purple pearl star ring) is approx. 6.5.<br>There are two options for STARZ, aprrox. size 5 and 6.5.<br>Due to the irregular shape of the pearls, ring size can not be exact and are an approximation."
   materials:
     - "AAA freshwater pearls"
     - "Tarnish resistant silver plated wire"
