@@ -5,6 +5,8 @@ layout: splash
 
 <script>
 
+  var merged_options = {{ site.data.merged_options[page.product_id] }};
+
   var slideIndex = 1;
 
   // Next/previous controls
@@ -35,31 +37,35 @@ layout: splash
 
 
   function update_price() {
+    var index = 0;
     var size = document.getElementById("size");
-    var size_cost = 0;
     var size_description = "-";
     if (size != null) {
-      size_cost = parseFloat(size.value);
       size_description = size.options[size.selectedIndex].text;
     }
-    var option = document.getElementById("options");
-    var option_cost = 0;
-    var option_description = "-";
-    if (option != null) {
-      option_cost = parseFloat(option.value);
-      option_description = option.options[option.selectedIndex].text;
+    var style = document.getElementById("style");
+    var style_description = "-";
+    if (style != null) {
+      style_description = style.options[style.selectedIndex].text;
     }
-    var p = ({{ product.price }} + size_cost + option_cost).toFixed(2);
-    document.getElementById("price").innerText = "$" + p.toString();
-    document.getElementById("paypal_price").value = p.toString();
-    document.getElementById("paypal_note").value = "[size] : " + size_description + "    [option] : " + option_description;
-    console.log( document.getElementById("paypal_note").value );
+    var clasp = document.getElementById("clasp");
+    var clasp_description = "-";
+    if (clasp != null) {
+      clasp_description = clasp.options[clasp.selectedIndex].text;
+    }
+
+    var value = size_description + "&" + style_description + "&" + clasp_description;
+    document.getElementsByName("os0")[0].value = merged_options[value]["value"];
+    document.getElementById("price").innerText = "$" + merged_options[value]["price"];
+
   }
 
 
   function init() {
     update_price();
+    {% if product.images.size > 1 %}
     showSlides(slideIndex);
+    {% endif %}
   }
 
   window.onload = init;
@@ -112,16 +118,25 @@ layout: splash
       <label for="size">Size:</label>
       <select name="size" id="size" onchange="update_price()">
         {% for size in product.sizes %}
-          <option value={{size.price}}>{{size.size}}</option>
+          <option value={{size.price}}>{{size.value}}</option>
         {% endfor %}
       </select>
     {% endif %}
 
-    {% if product.options %}
-      <label for="options">Options:</label>
-      <select name="options" id="options" onchange="update_price()">
-        {% for option in product.options %}
-          <option value={{option.price}}>{{option.name}}</option>
+    {% if product.styles %}
+      <label for="style">Style:</label>
+      <select name="style" id="style" onchange="update_price()">
+        {% for style in product.styles %}
+          <option value={{style.price}}>{{style.value}}</option>
+        {% endfor %}
+      </select>
+    {% endif %}
+
+    {% if product.necklace %}
+      <label for="clasp">Clasp:</label>
+      <select name="clasp" id="clasp" onchange="update_price()">
+        {% for clasp in site.data.clasps.clasps %} %}
+          <option value={{clasp.price}}>{{clasp.value}}</option>
         {% endfor %}
       </select>
     {% endif %}
@@ -130,29 +145,8 @@ layout: splash
     <div class="row">
       <span class="archive__item-excerpt" id="price">${{ product.price }}</span>
     </div>
-    
-    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin-left:-20px">
-      <input type="hidden" name="cmd" value="_cart">
-      <input type="hidden" name="business" value="colour.is.good.shop@gmail.com">
-      <input type="hidden" name="lc" value="US">
-      <input type="hidden" name="item_name" value="{{ product.name }}">
-      <input type="hidden" name="item_number" value="{{ page.product_id }}">
-      <input type="hidden" name="amount" id="paypal_price" value="{{ product.price }}">
-      <input type="hidden" name="currency_code" value="USD">
-      <input type="hidden" name="button_subtype" value="products">
-      <input type="hidden" name="no_note" value="0">
-      <input type="hidden" name="tax_rate" value="0.000">
-      <input type="hidden" name="shipping" value="0.00">
-      <input type="hidden" name="add" value="1">
-      <input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest">
-      
-      <table style="display:none">
-      <tr><td><input type="hidden" name="on0" value="notes">notes</td></tr><tr><td><input type="text" name="os0" maxlength="200" id="paypal_note"></td></tr>
-      </table>
 
-      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-    </form>
+    {{ site.data.paypal_buttons[page.product_id] }}
     
     <br/>
 
@@ -185,39 +179,6 @@ layout: splash
       <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
     </form>
     -->
-
-    <form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
-      <input type="hidden" name="cmd" value="_s-xclick">
-      <input type="hidden" name="hosted_button_id" value="NHPM9UYWY2HUJ">
-      
-      <div class="row">
-        <input type="hidden" name="on0" value="Color">Color</input>
-        <select name="os0">
-          <option value="Red">Red $10.00 USD</option>
-          <option value="Blue">Blue $8.00 USD</option>
-          <option value="Green">Green $12.00 USD</option>
-        </select>
-      </div>
-
-      <input type="hidden" name="currency_code" value="USD">
-      <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-      <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
-    </form>
-
-    <form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
-      <input type="hidden" name="cmd" value="_s-xclick">
-      <input type="hidden" name="hosted_button_id" value="F9ZWP76335YJ8">
-      <table>
-      <tr><td><input type="hidden" name="on0" value="Options">Options</td></tr><tr><td><select name="os0">
-              <option value="option is cheap">option is cheap $0.00 USD</option>
-              <option value="option is expensive">option is expensive $0.00 USD</option>
-      </select></td></tr>
-      </table>
-      <input type="hidden" name="currency_code" value="USD">
-      <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-      <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
-    </form>
-    
     
   </div>
 </div>

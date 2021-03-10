@@ -1,0 +1,58 @@
+1: '{"15&-&silver": {"value": 0, "price": "150.00"}, "15&-&gold": {"value": 1, "price":
+  "250.00"}, "16&-&silver": {"value": 2, "price": "155.00"}, "16&-&gold": {"value":
+  3, "price": "255.00"}}'
+2: '{"-&-&silver": {"value": 0, "price": "90.00"}, "-&-&gold": {"value": 1, "price":
+  "190.00"}}'
+3: '{"15&matcha&silver": {"value": 0, "price": "80.00"}, "15&matcha&gold": {"value":
+  1, "price": "180.00"}, "15&teddy&silver": {"value": 2, "price": "80.00"}, "15&teddy&gold":
+  {"value": 3, "price": "180.00"}, "15&seaglass&silver": {"value": 4, "price": "80.00"},
+  "15&seaglass&gold": {"value": 5, "price": "180.00"}, "16&matcha&silver": {"value":
+  6, "price": "85.00"}, "16&matcha&gold": {"value": 7, "price": "185.00"}, "16&teddy&silver":
+  {"value": 8, "price": "85.00"}, "16&teddy&gold": {"value": 9, "price": "185.00"},
+  "16&seaglass&silver": {"value": 10, "price": "85.00"}, "16&seaglass&gold": {"value":
+  11, "price": "185.00"}, "17&matcha&silver": {"value": 12, "price": "90.00"}, "17&matcha&gold":
+  {"value": 13, "price": "190.00"}, "17&teddy&silver": {"value": 14, "price": "90.00"},
+  "17&teddy&gold": {"value": 15, "price": "190.00"}, "17&seaglass&silver": {"value":
+  16, "price": "90.00"}, "17&seaglass&gold": {"value": 17, "price": "190.00"}}'
+4: '{"15&bunny and flowers&silver": {"value": 0, "price": "98.00"}, "15&bunny and
+  flowers&gold": {"value": 1, "price": "198.00"}, "15&plain&silver": {"value": 2,
+  "price": "90.00"}, "15&plain&gold": {"value": 3, "price": "190.00"}, "16&bunny and
+  flowers&silver": {"value": 4, "price": "103.00"}, "16&bunny and flowers&gold": {"value":
+  5, "price": "203.00"}, "16&plain&silver": {"value": 6, "price": "95.00"}, "16&plain&gold":
+  {"value": 7, "price": "195.00"}, "17&bunny and flowers&silver": {"value": 8, "price":
+  "108.00"}, "17&bunny and flowers&gold": {"value": 9, "price": "208.00"}, "17&plain&silver":
+  {"value": 10, "price": "100.00"}, "17&plain&gold": {"value": 11, "price": "200.00"}}'
+5: '{"-&-&silver": {"value": 0, "price": "80.00"}, "-&-&gold": {"value": 1, "price":
+  "180.00"}}'
+6: '{"15&-&silver": {"value": 0, "price": "110.00"}, "15&-&gold": {"value": 1, "price":
+  "210.00"}, "16&-&silver": {"value": 2, "price": "115.00"}, "16&-&gold": {"value":
+  3, "price": "215.00"}}'
+7: '{"15&-&silver": {"value": 0, "price": "120.00"}, "15&-&gold": {"value": 1, "price":
+  "220.00"}, "16&-&silver": {"value": 2, "price": "125.00"}, "16&-&gold": {"value":
+  3, "price": "225.00"}}'
+8: '{"15.5&-&silver": {"value": 0, "price": "95.00"}, "15.5&-&gold": {"value": 1,
+  "price": "195.00"}, "17.5&-&silver": {"value": 2, "price": "105.00"}, "17.5&-&gold":
+  {"value": 3, "price": "205.00"}}'
+9: '{"-&pearly&silver": {"value": 0, "price": "20.00"}, "-&pearly&gold": {"value":
+  1, "price": "120.00"}, "-&unicorn&silver": {"value": 2, "price": "20.00"}, "-&unicorn&gold":
+  {"value": 3, "price": "120.00"}}'
+10: '{"15&option is cheap&silver": {"value": 0, "price": "80.00"}, "15&option is cheap&gold":
+  {"value": 1, "price": "180.00"}, "15&option is expensive&silver": {"value": 2, "price":
+  "80.00"}, "15&option is expensive&gold": {"value": 3, "price": "180.00"}, "16&option
+  is cheap&silver": {"value": 4, "price": "85.00"}, "16&option is cheap&gold": {"value":
+  5, "price": "185.00"}, "16&option is expensive&silver": {"value": 6, "price": "85.00"},
+  "16&option is expensive&gold": {"value": 7, "price": "185.00"}, "17&option is cheap&silver":
+  {"value": 8, "price": "90.00"}, "17&option is cheap&gold": {"value": 9, "price":
+  "190.00"}, "17&option is expensive&silver": {"value": 10, "price": "90.00"}, "17&option
+  is expensive&gold": {"value": 11, "price": "190.00"}, "18&option is cheap&silver":
+  {"value": 12, "price": "95.00"}, "18&option is cheap&gold": {"value": 13, "price":
+  "195.00"}, "18&option is expensive&silver": {"value": 14, "price": "95.00"}, "18&option
+  is expensive&gold": {"value": 15, "price": "195.00"}}'
+11: '{"-&sea&silver": {"value": 0, "price": "10.00"}, "-&sea&gold": {"value": 1, "price":
+  "110.00"}, "-&fuschia&silver": {"value": 2, "price": "10.00"}, "-&fuschia&gold":
+  {"value": 3, "price": "110.00"}, "-&starz size 5&silver": {"value": 4, "price":
+  "15.00"}, "-&starz size 5&gold": {"value": 5, "price": "115.00"}, "-&starz size
+  6.5&silver": {"value": 6, "price": "15.00"}, "-&starz size 6.5&gold": {"value":
+  7, "price": "115.00"}, "-&smilez&silver": {"value": 8, "price": "15.00"}, "-&smilez&gold":
+  {"value": 9, "price": "115.00"}, "-&deep space&silver": {"value": 10, "price": "15.00"},
+  "-&deep space&gold": {"value": 11, "price": "115.00"}}'
