@@ -1,5 +1,5 @@
 from subprocess import check_output
-from urllib.parse import unquote
+from urllib.parse import unquote, quote
 
 def add_option(label, options, index, **kwargs):
 
@@ -12,7 +12,7 @@ def add_option(label, options, index, **kwargs):
 
   return cmd
 
-def create_button(options):
+def create_button(options, name):
 
   command = """
 curl https://api-3t.sandbox.paypal.com/nvp \
@@ -27,13 +27,14 @@ curl https://api-3t.sandbox.paypal.com/nvp \
   -d BUTTONTYPE=CART \
   -d BUTTONSUBTYPE=PRODUCTS \
   -d BUTTONCOUNTRY=US \
-  -d L_BUTTONVAR1=item_name%3Dshoehorn \
+  -d L_BUTTONVAR1=item_name%3D{name} \
   -d L_BUTTONVAR2=tax=%3D21 \
   -d L_BUTTONVAR3=item_number%3D123456 \
-"""
+""".format(name=quote(name))
 
   command += add_option("Options", options, 0)
   output = check_output(command,shell=True)
+  print(output)
   output = output.decode('utf-8')  
   output = output.split('WEBSITECODE=')[1].split("&HOSTED")[0]
   html = unquote(output).strip()

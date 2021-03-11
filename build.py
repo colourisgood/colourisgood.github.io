@@ -5,6 +5,7 @@ import copy
 from itertools import product
 from PIL import Image
 from button import create_button
+from urllib.parse import quote
 
 template = """---
 layout: product
@@ -17,7 +18,7 @@ with open("_data/products.yml") as file:
   products = yaml.load(file, Loader=yaml.FullLoader)
 
 with open("_data/clasps.yml") as file:
-  clasps = yaml.load(file, Loader=yaml.FullLoader)["clasps"]
+  raw_clasps = yaml.load(file, Loader=yaml.FullLoader)["clasps"]
 
 # build the product pages
 os.makedirs("product_pages", exist_ok=True)
@@ -72,17 +73,22 @@ for product_num,(k,v) in enumerate(products.items()):
   BLANK_OPTION = [{"value":"-", "price":"0.00"}]
   sizes = copy.deepcopy(v.get("sizes",BLANK_OPTION))
   styles = copy.deepcopy(v.get("styles",BLANK_OPTION))
+  clasps = raw_clasps if v.get("necklace",False) else BLANK_OPTION
 
   merged_options = []
   merged_options_yml = {}
   for ii,opts in enumerate(product(sizes,styles,clasps)):
-    value = "&".join([str(opt["value"]) for opt in opts])
+    backend_value = "&".join([str(opt["value"]) for opt in opts])
+    value = "size:{} style:{} {}".format(*[str(opt["value"]) for opt in opts])
     price = float(v["price"]) + sum([float(opt["price"]) for opt in opts])
     price = "{:.2f}".format(price)
-    merged_options.append({"value":ii,"price":price})
-    merged_options_yml[value] = {"value":ii,"price":price}
+    merged_options.append({"value":quote(value),"price":price})
+    merged_options_yml[backend_value] = {"value":value,"price":price}
 
-  buttons[product_num+1] = create_button(merged_options)
+  button_html = create_button(merged_options, v["name"])
+  button_html = button_html.replace("<table>","<table style=\"display:none;\">")
+  button_html = button_html.replace("method=\"post\">", "method=\"post\" style=\"padding:0px\">")
+  buttons[product_num+1] = button_html
   all_options[product_num+1] = json.dumps(merged_options_yml)
 
 

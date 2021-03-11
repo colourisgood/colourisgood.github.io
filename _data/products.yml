@@ -88,6 +88,7 @@
   background: "#CEFBFDAA"
 4:
   name: "Peachy Meadows"
+  necklace: True
   price: "90.00"
   sizes:
     -
@@ -129,6 +130,7 @@
   background: "#F9E4C4AA"
 5:
   name: "Fierce Heart"
+  necklace: True
   price: "80.00"
   details: "Necklace measures aprrox. 15\""
   materials:
@@ -146,6 +148,7 @@
   background: "#F9E4C4AA"
 6:
   name: "Wing Divine"
+  necklace: True
   price: "110.00"
   sizes:
     -
@@ -167,6 +170,7 @@
   background: "#F9E4C4AA"
 7:
   name: "Angel WingZ"
+  necklace: True
   price: "120.00"
   sizes:
     -
@@ -190,6 +194,7 @@
   background: "#F9E4C4AA"
 8:
   name: "Glass Ocean"
+  necklace: True
   price: "95.00"
   sizes:
     -
@@ -213,6 +218,7 @@
   background: "#F9F8C4AA"
 9:
   name: "Double Rainbow Ringzz"
+  necklace: False
   price: "20.00"
   styles:
     -
@@ -241,6 +247,7 @@
   background: "#F9E4C4AA"
 10:
   name: "Galactic Shimmer"
+  necklace: True
   price: "80.00"
   sizes:
     -
@@ -277,6 +284,7 @@
   background: "#C4F9DDAA"
 11:
   name: "Tentacle Thangz"
+  necklace: False
   price: "10.00"
   styles:
     -
