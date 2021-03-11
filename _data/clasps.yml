@@ -1,0 +1,7 @@
+clasps:
+  -
+    value: "silver"
+    price: "0.00"
+  - 
+    value: "gold"
+    price: "100.00"

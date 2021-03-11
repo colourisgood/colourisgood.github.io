@@ -1,0 +1,77 @@
+1: '{"15&-&silver": {"value": "size:15 style:- silver", "price": "150.00"}, "15&-&gold":
+  {"value": "size:15 style:- gold", "price": "250.00"}, "16&-&silver": {"value": "size:16
+  style:- silver", "price": "155.00"}, "16&-&gold": {"value": "size:16 style:- gold",
+  "price": "255.00"}}'
+2: '{"-&-&silver": {"value": "size:- style:- silver", "price": "90.00"}, "-&-&gold":
+  {"value": "size:- style:- gold", "price": "190.00"}}'
+3: '{"15&matcha&silver": {"value": "size:15 style:matcha silver", "price": "80.00"},
+  "15&matcha&gold": {"value": "size:15 style:matcha gold", "price": "180.00"}, "15&teddy&silver":
+  {"value": "size:15 style:teddy silver", "price": "80.00"}, "15&teddy&gold": {"value":
+  "size:15 style:teddy gold", "price": "180.00"}, "15&seaglass&silver": {"value":
+  "size:15 style:seaglass silver", "price": "80.00"}, "15&seaglass&gold": {"value":
+  "size:15 style:seaglass gold", "price": "180.00"}, "16&matcha&silver": {"value":
+  "size:16 style:matcha silver", "price": "85.00"}, "16&matcha&gold": {"value": "size:16
+  style:matcha gold", "price": "185.00"}, "16&teddy&silver": {"value": "size:16 style:teddy
+  silver", "price": "85.00"}, "16&teddy&gold": {"value": "size:16 style:teddy gold",
+  "price": "185.00"}, "16&seaglass&silver": {"value": "size:16 style:seaglass silver",
+  "price": "85.00"}, "16&seaglass&gold": {"value": "size:16 style:seaglass gold",
+  "price": "185.00"}, "17&matcha&silver": {"value": "size:17 style:matcha silver",
+  "price": "90.00"}, "17&matcha&gold": {"value": "size:17 style:matcha gold", "price":
+  "190.00"}, "17&teddy&silver": {"value": "size:17 style:teddy silver", "price": "90.00"},
+  "17&teddy&gold": {"value": "size:17 style:teddy gold", "price": "190.00"}, "17&seaglass&silver":
+  {"value": "size:17 style:seaglass silver", "price": "90.00"}, "17&seaglass&gold":
+  {"value": "size:17 style:seaglass gold", "price": "190.00"}}'
+4: '{"15&bunny and flowers&silver": {"value": "size:15 style:bunny and flowers silver",
+  "price": "98.00"}, "15&bunny and flowers&gold": {"value": "size:15 style:bunny and
+  flowers gold", "price": "198.00"}, "15&plain&silver": {"value": "size:15 style:plain
+  silver", "price": "90.00"}, "15&plain&gold": {"value": "size:15 style:plain gold",
+  "price": "190.00"}, "16&bunny and flowers&silver": {"value": "size:16 style:bunny
+  and flowers silver", "price": "103.00"}, "16&bunny and flowers&gold": {"value":
+  "size:16 style:bunny and flowers gold", "price": "203.00"}, "16&plain&silver": {"value":
+  "size:16 style:plain silver", "price": "95.00"}, "16&plain&gold": {"value": "size:16
+  style:plain gold", "price": "195.00"}, "17&bunny and flowers&silver": {"value":
+  "size:17 style:bunny and flowers silver", "price": "108.00"}, "17&bunny and flowers&gold":
+  {"value": "size:17 style:bunny and flowers gold", "price": "208.00"}, "17&plain&silver":
+  {"value": "size:17 style:plain silver", "price": "100.00"}, "17&plain&gold": {"value":
+  "size:17 style:plain gold", "price": "200.00"}}'
+5: '{"-&-&silver": {"value": "size:- style:- silver", "price": "80.00"}, "-&-&gold":
+  {"value": "size:- style:- gold", "price": "180.00"}}'
+6: '{"15&-&silver": {"value": "size:15 style:- silver", "price": "110.00"}, "15&-&gold":
+  {"value": "size:15 style:- gold", "price": "210.00"}, "16&-&silver": {"value": "size:16
+  style:- silver", "price": "115.00"}, "16&-&gold": {"value": "size:16 style:- gold",
+  "price": "215.00"}}'
+7: '{"15&-&silver": {"value": "size:15 style:- silver", "price": "120.00"}, "15&-&gold":
+  {"value": "size:15 style:- gold", "price": "220.00"}, "16&-&silver": {"value": "size:16
+  style:- silver", "price": "125.00"}, "16&-&gold": {"value": "size:16 style:- gold",
+  "price": "225.00"}}'
+8: '{"15.5&-&silver": {"value": "size:15.5 style:- silver", "price": "95.00"}, "15.5&-&gold":
+  {"value": "size:15.5 style:- gold", "price": "195.00"}, "17.5&-&silver": {"value":
+  "size:17.5 style:- silver", "price": "105.00"}, "17.5&-&gold": {"value": "size:17.5
+  style:- gold", "price": "205.00"}}'
+9: '{"-&pearly&-": {"value": "size:- style:pearly -", "price": "20.00"}, "-&unicorn&-":
+  {"value": "size:- style:unicorn -", "price": "20.00"}}'
+10: '{"15&option is cheap&silver": {"value": "size:15 style:option is cheap silver",
+  "price": "80.00"}, "15&option is cheap&gold": {"value": "size:15 style:option is
+  cheap gold", "price": "180.00"}, "15&option is expensive&silver": {"value": "size:15
+  style:option is expensive silver", "price": "80.00"}, "15&option is expensive&gold":
+  {"value": "size:15 style:option is expensive gold", "price": "180.00"}, "16&option
+  is cheap&silver": {"value": "size:16 style:option is cheap silver", "price": "85.00"},
+  "16&option is cheap&gold": {"value": "size:16 style:option is cheap gold", "price":
+  "185.00"}, "16&option is expensive&silver": {"value": "size:16 style:option is expensive
+  silver", "price": "85.00"}, "16&option is expensive&gold": {"value": "size:16 style:option
+  is expensive gold", "price": "185.00"}, "17&option is cheap&silver": {"value": "size:17
+  style:option is cheap silver", "price": "90.00"}, "17&option is cheap&gold": {"value":
+  "size:17 style:option is cheap gold", "price": "190.00"}, "17&option is expensive&silver":
+  {"value": "size:17 style:option is expensive silver", "price": "90.00"}, "17&option
+  is expensive&gold": {"value": "size:17 style:option is expensive gold", "price":
+  "190.00"}, "18&option is cheap&silver": {"value": "size:18 style:option is cheap
+  silver", "price": "95.00"}, "18&option is cheap&gold": {"value": "size:18 style:option
+  is cheap gold", "price": "195.00"}, "18&option is expensive&silver": {"value": "size:18
+  style:option is expensive silver", "price": "95.00"}, "18&option is expensive&gold":
+  {"value": "size:18 style:option is expensive gold", "price": "195.00"}}'
+11: '{"-&sea&-": {"value": "size:- style:sea -", "price": "10.00"}, "-&fuschia&-":
+  {"value": "size:- style:fuschia -", "price": "10.00"}, "-&starz size 5&-": {"value":
+  "size:- style:starz size 5 -", "price": "15.00"}, "-&starz size 6.5&-": {"value":
+  "size:- style:starz size 6.5 -", "price": "15.00"}, "-&smilez&-": {"value": "size:-
+  style:smilez -", "price": "15.00"}, "-&deep space&-": {"value": "size:- style:deep
+  space -", "price": "15.00"}}'

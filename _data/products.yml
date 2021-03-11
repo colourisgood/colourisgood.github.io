@@ -1,12 +1,13 @@
 1:
   name: "Flying Smiley"
+  necklace: True
   price: "150.00"
   sizes:
     -
-      size: 15
+      value: 15
       price: "0.00"
     -
-      size: 16
+      value: 16
       price: "5.00"
   materials: 
     - "AAA freshwater pearls"
@@ -21,6 +22,7 @@
   background: "#F9C4DEAA"
 2:
   name: "Constallation Zebra"
+  necklace: True
   price: "90.00"
   details: "Necklace measures aprrox. 17\"" 
   materials:
@@ -41,26 +43,27 @@
   background: "#F9E4C4AA"
 3:
   name: "Colour is Good Classic"
+  necklace: True
   price: "80.00"
   sizes:
     -
-      size: 15
+      value: 15
       price: "0.00"
     -
-      size: 16
+      value: 16
       price: "5.00"
     -
-      size: 17
+      value: 17
       price: "10.00"
-  options:
+  styles:
     -
-      name: "matcha"
+      value: "matcha"
       price: "0.00"
     -
-      name: "teddy"
+      value: "teddy"
       price: "0.00"
     -
-      name: "seaglass"
+      value: "seaglass"
       price: "0.00"
   materials:
     - "AAA freshwater pearls"
@@ -85,23 +88,24 @@
   background: "#CEFBFDAA"
 4:
   name: "Peachy Meadows"
+  necklace: True
   price: "90.00"
   sizes:
     -
-      size: 15
+      value: 15
       price: "0.00"
     -
-      size: 16
+      value: 16
       price: "5.00"
     -
-      size: 17
+      value: 17
       price: "10.00"
-  options:
+  styles:
     -
-      name: "bunny and flowers"
+      value: "bunny and flowers"
       price: "8.00"
     -
-      name: "plain"
+      value: "plain"
       price: "0.00"
   details: "Springtime feels all year round! Choose your length and if you want a bunny friend & flowers, or, ain't no shame in plain!"
   materials:
@@ -126,6 +130,7 @@
   background: "#F9E4C4AA"
 5:
   name: "Fierce Heart"
+  necklace: True
   price: "80.00"
   details: "Necklace measures aprrox. 15\""
   materials:
@@ -143,13 +148,14 @@
   background: "#F9E4C4AA"
 6:
   name: "Wing Divine"
+  necklace: True
   price: "110.00"
   sizes:
     -
-      size: 15
+      value: 15
       price: "0.00"
     -
-      size: 16
+      value: 16
       price: "5.00"
   details: ""
   materials:
@@ -164,13 +170,14 @@
   background: "#F9E4C4AA"
 7:
   name: "Angel WingZ"
+  necklace: True
   price: "120.00"
   sizes:
     -
-      size: 15
+      value: 15
       price: "0.00"
     -
-      size: 16
+      value: 16
       price: "5.00"
   details: ""
   materials:
@@ -187,13 +194,14 @@
   background: "#F9E4C4AA"
 8:
   name: "Glass Ocean"
+  necklace: True
   price: "95.00"
   sizes:
     -
-      size: 15.5
+      value: 15.5
       price: "0.00"
     -
-      size: 17.5
+      value: 17.5
       price: "10.00"
   materials: 
     - "AAA freshwater pearls"
@@ -210,13 +218,14 @@
   background: "#F9F8C4AA"
 9:
   name: "Double Rainbow Ringzz"
+  necklace: False
   price: "20.00"
-  options:
+  styles:
     -
-      name: "pearly"
+      value: "pearly"
       price: "0.00"
     -
-      name: "unicorn"
+      value: "unicorn"
       price: "0.00"
   details: "<b>currently only shipping within Canada</b><br>Pearly is approx. size 6<br>Unicorn is approx. size 4.5.<br> 
   Due to the irregular shape of the pearls, ring size can not be exact and are an approximation."
@@ -238,26 +247,27 @@
   background: "#F9E4C4AA"
 10:
   name: "Galactic Shimmer"
+  necklace: True
   price: "80.00"
   sizes:
     -
-      size: 15
+      value: 15
       price: "0.00"
     -
-      size: 16
+      value: 16
       price: "5.00"
     -
-      size: 17
+      value: 17
       price: "10.00"
     -
-      size: 18
+      value: 18
       price: "15.00"
-  options:
+  styles:
     -
-      name: "option is cheap"
+      value: "option is cheap"
       price: "0.00"
     -
-      name: "option is expensive"
+      value: "option is expensive"
       price: "0.00"
   materials: 
     - "Grey silver rainbow AAA freshwater pearls"
@@ -274,25 +284,26 @@
   background: "#C4F9DDAA"
 11:
   name: "Tentacle Thangz"
+  necklace: False
   price: "10.00"
-  options:
+  styles:
     -
-      name: "sea"
+      value: "sea"
       price: "0.00"
     -
-      name: "fuschia"
+      value: "fuschia"
       price: "0.00"
     -
-      name: "starz size 5"
+      value: "starz size 5"
       price: "5.00"
     -
-      name: "starz size 6.5"
+      value: "starz size 6.5"
       price: "5.00"
     -
-      name: "smilez"
+      value: "smilez"
       price: "5.00"
     -
-      name: "deep space"
+      value: "deep space"
       price: "5.00"
   details: "<b>currently only shipping within Canada</b><br>SEA & FUSCHIA are approx. size 6.<br>SMILEZ are approx. size 6.<br>DEEP SPACE (dark purple pearl star ring) is approx. 6.5.<br>There are two options for STARZ, aprrox. size 5 and 6.5.<br>Due to the irregular shape of the pearls, ring size can not be exact and are an approximation."
   materials:
