@@ -34,13 +34,9 @@ curl https://api-3t.sandbox.paypal.com/nvp \
 
   command += add_option("Options", options, 0)
   output = check_output(command,shell=True)
-  print(output)
   output = output.decode('utf-8')  
   output = output.split('WEBSITECODE=')[1].split("&HOSTED")[0]
   html = unquote(output).strip()
-
-  # make changes to the formating here 
-
   return html
 
 if __name__ == "__main__":
