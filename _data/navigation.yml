@@ -6,5 +6,7 @@ main:
     url: /about/
   - title: "FAQ"
     url: /faq/
+  - title: "Eco"
+    url: /eco/
   - title: "Contact"
     url: /contact/

@@ -7,7 +7,7 @@ intro:
 row0:
 - alt: placehold text
   background: '#F9C4DEAA'
-  excerpt: $150.00
+  excerpt: $130.00
   image_path: /assets/images/flyingsmiley.jpg
   image_url: product/1
   title: Flying Smiley

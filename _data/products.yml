@@ -1,7 +1,7 @@
 1:
   name: "Flying Smiley"
   necklace: True
-  price: "150.00"
+  price: "130.00"
   sizes:
     -
       value: 15
@@ -26,9 +26,9 @@
   price: "90.00"
   details: "Necklace measures aprrox. 17\"" 
   materials:
+    - "Sterling silver clasp"
     - "AAA freshwater pearls"
     - "Tarnish resistant silver plated wire"
-    - "Sterling silver or gold filled findings"
     - "Abalone shell star"
     - "Ceramic dice"
     - "Gemstones"
@@ -74,10 +74,10 @@
   images: 
     - 
       path: /assets/images/matcha_neck.jpg
-      caption: "mathca"
+      caption: "matcha 17\""
     -
       path: /assets/images/matcha.jpg
-      caption: "mathca 17\""
+      caption: "matcha"
 
     - 
       path: /assets/images/teddy.jpg
@@ -134,11 +134,11 @@
   price: "80.00"
   details: "Necklace measures aprrox. 15\""
   materials:
+    - "Sterling silver clasp"
     - "Tiger's eye (semi-precious stone) heart bead"
     - "Ceramic Tiger"
     - "AAA freshwater pearls"
     - "Tarnish resistant silver plated wire"
-    - "Sterling silver or gold filled findings"
     - "Gemstones"
     - "Glass beads"
   images: 
@@ -220,6 +220,28 @@
   name: "Double Rainbow Ringzz"
   necklace: False
   price: "20.00"
+  sizes:
+    -
+      value: "one size (stretch string)" 
+      price: "0.00"
+    -
+      value: "4 (wire)"
+      price: "0.00"
+    - 
+      value: "5 (wire)"
+      price: "0.00"
+    -
+      value: "6 (wire)"
+      price: "0.00"
+    - 
+      value: "7 (wire)"
+      price: "0.00"
+    - 
+      value: "8 (wire)"
+      price: "0.00"
+    - 
+      value: "9 (wire)"
+      price: "0.00"
   styles:
     -
       value: "pearly"
@@ -227,11 +249,10 @@
     -
       value: "unicorn"
       price: "0.00"
-  details: "<b>currently only shipping within Canada</b><br>Pearly is approx. size 6<br>Unicorn is approx. size 4.5.<br> 
-  Due to the irregular shape of the pearls, ring size can not be exact and are an approximation."
+  details: "<b>currently only shipping within Canada, Limited Stock!</b><br>You have the option of \"one size\" stretchy string which stretches to fit approx. size 4-8, or the ring made with silver plated wire (non-stretchy).</br>Due to the irregular shape of the pearls, ring size can not be exact and are an approximation."
   materials:
     - "AAA freshwater pearls"
-    - "Tarnish resistant silver plated wire"
+    - "Tarnish resistant silver plated wire or stretchy string"
     - "Glass beads"
   images: 
     - 
@@ -286,6 +307,28 @@
   name: "Tentacle Thangz"
   necklace: False
   price: "10.00"
+  sizes:
+    -
+      value: "one size (stretch string)" 
+      price: "0.00"
+    -
+      value: "4 (wire)"
+      price: "0.00"
+    - 
+      value: "5 (wire)"
+      price: "0.00"
+    -
+      value: "6 (wire)"
+      price: "0.00"
+    - 
+      value: "7 (wire)"
+      price: "0.00"
+    - 
+      value: "8 (wire)"
+      price: "0.00"
+    - 
+      value: "9 (wire)"
+      price: "0.00"
   styles:
     -
       value: "sea"
@@ -305,10 +348,10 @@
     -
       value: "deep space"
       price: "5.00"
-  details: "<b>currently only shipping within Canada</b><br>SEA & FUSCHIA are approx. size 6.<br>SMILEZ are approx. size 6.<br>DEEP SPACE (dark purple pearl star ring) is approx. 6.5.<br>There are two options for STARZ, aprrox. size 5 and 6.5.<br>Due to the irregular shape of the pearls, ring size can not be exact and are an approximation."
+  details: "<b>currently only shipping within Canada, Limited Stock!</b><br>You have the option of \"one size\" stretchy string which stretches to fit approx. size 4-8, or the ring made with silver plated wire (non-stretchy).</br>Due to the irregular shape of the pearls, ring size can not be exact and are an approximation."
   materials:
     - "AAA freshwater pearls"
-    - "Tarnish resistant silver plated wire"
+    - "Tarnish resistant silver plated wire or stretchy string"
     - "Glass beads"
     - "star Abalone shell in STARZ & DEEP SPACE"
   images: 

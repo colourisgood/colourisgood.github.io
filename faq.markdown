@@ -9,10 +9,10 @@ toc: true
 
 <br/><br/>
 
-**Please note that due to COVID-19 shipping delays may occur. Please allow 7-10 business days for the item(s) to be made and shipped.**
+<span style="color:#4668d6;"><b>Please note that due to COVID-19 shipping delays may occur. Please allow 7-10 business days for the item(s) to be made and shipped.</b></span>
 
 **Where do you ship?**
-We ship worldwide! 
+Currently we ship internationally, excluding the UK. 
 
 All orders will recieve a confirmaion email and be updated with a tracking number within 1-10 business days. 
 
