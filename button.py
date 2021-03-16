@@ -1,3 +1,4 @@
+import os
 from subprocess import check_output
 from urllib.parse import unquote, quote
 
@@ -12,15 +13,27 @@ def add_option(label, options, index, **kwargs):
 
   return cmd
 
-def create_button(options, name):
+def create_button(options, name, sandbox=True, shipping=3):
+
+  paypal_user = os.getenv("PAYPAL_USER")
+  paypal_password = os.getenv("PAYPAL_PWD")
+  paypal_signature = os.getenv("PAYPAL_SIG")
+
+  api_url = "https://api-3t.paypal.com/nvp"
+  if sandbox:
+    api_url = "https://api-3t.sandbox.paypal.com/nvp"
+
+  if paypal_user is None or paypal_password is None or paypal_signature is None:
+    print("YOU NEED TO DEFINE ENVIRONMENT VARIABLES ...")
+    assert False
 
   command = """
-curl https://api-3t.sandbox.paypal.com/nvp \
+curl {url} \
   -s \
   --insecure \
-  -d USER=sb-65mzm5298450_api1.business.example.com \
-  -d PWD=ZB699ZS7KUXMQTX9 \
-  -d SIGNATURE=Adab29VfWTNUD.w2uMl4W1.o8Gx4AjkBeAC3JsTc9kV8A138WK8kn4C- \
+  -d USER={user} \
+  -d PWD={password} \
+  -d SIGNATURE={signature} \
   -d VERSION=51.0 \
   -d METHOD=BMCreateButton \
   -d BUTTONCODE=HOSTED \
@@ -28,13 +41,21 @@ curl https://api-3t.sandbox.paypal.com/nvp \
   -d BUTTONSUBTYPE=PRODUCTS \
   -d BUTTONCOUNTRY=US \
   -d L_BUTTONVAR1=item_name%3D{name} \
-  -d L_BUTTONVAR2=tax=%3D21 \
+  -d L_BUTTONVAR2=shipping={shipping} \
   -d L_BUTTONVAR3=item_number%3D123456 \
-""".format(name=quote(name))
+""".format(
+  url=api_url,
+  user=paypal_user,
+  password=paypal_password,
+  signature=paypal_signature,
+  name=quote(name),
+  shipping=shipping)
 
   command += add_option("Options", options, 0)
   output = check_output(command,shell=True)
   output = output.decode('utf-8')  
+  print(command)
+  print(unquote(output))
   output = output.split('WEBSITECODE=')[1].split("&HOSTED")[0]
   html = unquote(output).strip()
   return html

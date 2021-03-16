@@ -43,6 +43,7 @@ if __name__ == "__main__":
   parser = argparse.ArgumentParser()
   parser.add_argument("--paypal", action="store_true")
   parser.add_argument("--convert", action="store_true")
+  parser.add_argument("--production", action="store_true")
   args = parser.parse_args()
 
   with open("_data/products.yml") as file:
@@ -67,9 +68,11 @@ if __name__ == "__main__":
       "image_url" : "product/{}".format(k),
       "alt" : "placehold text",
       "title" : v["name"],
-      "excerpt" : "$" + v["price"],
+      "excerpt" : "${price}".format(price=v["price"]),
       "background" : v.get("background", "red")
     }
+    if v.get("sold",False):
+      item["excerpt"] = "<span style=\"color:red\"><del>${price}</del>&nbsp;<b>SOLD</b></span>".format(price=v["price"])
     items.append(item)
 
     # convert images
@@ -96,7 +99,7 @@ if __name__ == "__main__":
         merged_options_yml[backend_value] = {"value":value,"price":price}
 
       # hidding the actual mechanics
-      button_html = create_button(merged_options, v["name"])
+      button_html = create_button(merged_options, v["name"], sandbox=args.production==False)
       button_html = button_html.replace("<table>","<table style=\"display:none;\">")
       button_html = button_html.replace("method=\"post\">", "method=\"post\" style=\"padding:0px\">")
       buttons[product_num+1] = button_html
@@ -114,7 +117,7 @@ if __name__ == "__main__":
   # build the main page
   itemsets = [items[i:i+3] for i in range(0,len(items),3)]
   content = {"row" + str(i) : itemset for i,itemset in enumerate(itemsets)}
-  rows = "\n".join(['{{% include cgallery id="row{}" %}}'.format(i) for i in range(len(content))])
+  rows = "\n".join(['{{% include cgallery.html id="row{}" %}}'.format(i) for i in range(len(content))])
 
   with open("index.markdown", "w") as f:
     f.write( main_page_template.format(content=yaml.dump(content), rows=rows) )

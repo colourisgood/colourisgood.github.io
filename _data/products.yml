@@ -2,6 +2,7 @@
   name: "Flying Smiley"
   necklace: True
   price: "130.00"
+  sold: False
   sizes:
     -
       value: 15

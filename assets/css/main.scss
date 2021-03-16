@@ -132,18 +132,20 @@ $caption-font-family: 'Freckle Face';
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: #34373a;
   font-size: 15px;
+  font-weight: bold;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: -20px;
   width: 100%;
   text-align: center;
+  background-color: #f8f1ec;
 }
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
+  color: #000000;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;

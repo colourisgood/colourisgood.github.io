@@ -73,10 +73,10 @@ layout: splash
 </script>
 
 
-<div class="flex-grid">
+<div class="flex-grid" style="flex-flow:row wrap;">
 
   <!-- Slideshow container -->
-  <div class="col">
+  <div class="col" style="min-width:400px;">
     {% if product.images.size > 1 %}
     <div class="slideshow-container">
       {% for image in product.images %}
@@ -89,7 +89,6 @@ layout: splash
           {% else %}
             <img src="{{image.path}}" style="width:500px">
           {% endif %}
-          
           <div class="text">{{image.caption}}</div>
         </div>
       {% endfor %}
@@ -107,7 +106,7 @@ layout: splash
     {% endif %}
   </div>
 
-  <div class="col">
+  <div class="col" style="min-width:400px;">
     <div class="row">
       <span class="archive__item-title">{{ product.name }}<span>
     </div>
