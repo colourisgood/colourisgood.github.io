@@ -15,13 +15,16 @@ def add_option(label, options, index, **kwargs):
 
 def create_button(options, name, sandbox=True, shipping=3):
 
+  api_url = "https://api-3t.paypal.com/nvp"
   paypal_user = os.getenv("PAYPAL_USER")
   paypal_password = os.getenv("PAYPAL_PWD")
   paypal_signature = os.getenv("PAYPAL_SIG")
 
-  api_url = "https://api-3t.paypal.com/nvp"
   if sandbox:
     api_url = "https://api-3t.sandbox.paypal.com/nvp"
+    paypal_user = os.getenv("PAYPAL_SANDBOX_USER")
+    paypal_password = os.getenv("PAYPAL_SANDBOX_PWD")
+    paypal_signature = os.getenv("PAYPAL_SANDBOX_SIG")
 
   if paypal_user is None or paypal_password is None or paypal_signature is None:
     print("YOU NEED TO DEFINE ENVIRONMENT VARIABLES ...")
