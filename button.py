@@ -40,16 +40,16 @@ curl {url} \
   -d BUTTONTYPE=CART \
   -d BUTTONSUBTYPE=PRODUCTS \
   -d BUTTONCOUNTRY=US \
-  -d L_BUTTONVAR1=item_name%3D{name} \
-  -d L_BUTTONVAR2=shipping={shipping} \
-  -d L_BUTTONVAR3=item_number%3D123456 \
+  -d NO_SHIPPING=2 \
+  -d L_BUTTONVAR1=item_name={name} \
+  -d L_BUTTONVAR2=item_number=123456 \
 """.format(
   url=api_url,
   user=paypal_user,
   password=paypal_password,
   signature=paypal_signature,
-  name=quote(name),
-  shipping=shipping)
+  name=quote(name))
+  #shipping=shipping)
 
   command += add_option("Options", options, 0)
   output = check_output(command,shell=True)

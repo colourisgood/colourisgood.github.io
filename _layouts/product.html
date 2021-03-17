@@ -76,7 +76,7 @@ layout: splash
 <div class="flex-grid" style="flex-flow:row wrap;">
 
   <!-- Slideshow container -->
-  <div class="col" style="min-width:400px;">
+  <div class="col" style="min-width:480px;">
     {% if product.images.size > 1 %}
     <div class="slideshow-container">
       {% for image in product.images %}
@@ -87,7 +87,7 @@ layout: splash
               <source src="{{image.path}}" type="video/mp4">
             </video>
           {% else %}
-            <img src="{{image.path}}" style="width:500px">
+            <img src="{{image.path}}" style="width:480px">
           {% endif %}
           <div class="text">{{image.caption}}</div>
         </div>
