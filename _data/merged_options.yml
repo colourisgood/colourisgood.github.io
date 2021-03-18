@@ -48,8 +48,21 @@
   {"value": "size:15.5 style:- gold", "price": "101.00"}, "17.5&-&silver": {"value":
   "size:17.5 style:- silver", "price": "105.00"}, "17.5&-&gold": {"value": "size:17.5
   style:- gold", "price": "111.00"}}'
-9: '{"-&pearly&-": {"value": "size:- style:pearly -", "price": "20.00"}, "-&unicorn&-":
-  {"value": "size:- style:unicorn -", "price": "20.00"}}'
+9: '{"one size (stretch string)&pearly&-": {"value": "size:one size (stretch string)
+  style:pearly -", "price": "20.00"}, "one size (stretch string)&unicorn&-": {"value":
+  "size:one size (stretch string) style:unicorn -", "price": "20.00"}, "4 (wire)&pearly&-":
+  {"value": "size:4 (wire) style:pearly -", "price": "20.00"}, "4 (wire)&unicorn&-":
+  {"value": "size:4 (wire) style:unicorn -", "price": "20.00"}, "5 (wire)&pearly&-":
+  {"value": "size:5 (wire) style:pearly -", "price": "20.00"}, "5 (wire)&unicorn&-":
+  {"value": "size:5 (wire) style:unicorn -", "price": "20.00"}, "6 (wire)&pearly&-":
+  {"value": "size:6 (wire) style:pearly -", "price": "20.00"}, "6 (wire)&unicorn&-":
+  {"value": "size:6 (wire) style:unicorn -", "price": "20.00"}, "7 (wire)&pearly&-":
+  {"value": "size:7 (wire) style:pearly -", "price": "20.00"}, "7 (wire)&unicorn&-":
+  {"value": "size:7 (wire) style:unicorn -", "price": "20.00"}, "8 (wire)&pearly&-":
+  {"value": "size:8 (wire) style:pearly -", "price": "20.00"}, "8 (wire)&unicorn&-":
+  {"value": "size:8 (wire) style:unicorn -", "price": "20.00"}, "9 (wire)&pearly&-":
+  {"value": "size:9 (wire) style:pearly -", "price": "20.00"}, "9 (wire)&unicorn&-":
+  {"value": "size:9 (wire) style:unicorn -", "price": "20.00"}}'
 10: '{"15&option is cheap&silver": {"value": "size:15 style:option is cheap silver",
   "price": "80.00"}, "15&option is cheap&gold": {"value": "size:15 style:option is
   cheap gold", "price": "86.00"}, "15&option is expensive&silver": {"value": "size:15
@@ -69,9 +82,50 @@
   is cheap gold", "price": "101.00"}, "18&option is expensive&silver": {"value": "size:18
   style:option is expensive silver", "price": "95.00"}, "18&option is expensive&gold":
   {"value": "size:18 style:option is expensive gold", "price": "101.00"}}'
-11: '{"-&sea&-": {"value": "size:- style:sea -", "price": "10.00"}, "-&fuschia&-":
-  {"value": "size:- style:fuschia -", "price": "10.00"}, "-&starz size 5&-": {"value":
-  "size:- style:starz size 5 -", "price": "15.00"}, "-&starz size 6.5&-": {"value":
-  "size:- style:starz size 6.5 -", "price": "15.00"}, "-&smilez&-": {"value": "size:-
-  style:smilez -", "price": "15.00"}, "-&deep space&-": {"value": "size:- style:deep
+11: '{"one size (stretch string)&sea&-": {"value": "size:one size (stretch string)
+  style:sea -", "price": "10.00"}, "one size (stretch string)&fuschia&-": {"value":
+  "size:one size (stretch string) style:fuschia -", "price": "10.00"}, "one size (stretch
+  string)&starz size 5&-": {"value": "size:one size (stretch string) style:starz size
+  5 -", "price": "15.00"}, "one size (stretch string)&starz size 6.5&-": {"value":
+  "size:one size (stretch string) style:starz size 6.5 -", "price": "15.00"}, "one
+  size (stretch string)&smilez&-": {"value": "size:one size (stretch string) style:smilez
+  -", "price": "15.00"}, "one size (stretch string)&deep space&-": {"value": "size:one
+  size (stretch string) style:deep space -", "price": "15.00"}, "4 (wire)&sea&-":
+  {"value": "size:4 (wire) style:sea -", "price": "10.00"}, "4 (wire)&fuschia&-":
+  {"value": "size:4 (wire) style:fuschia -", "price": "10.00"}, "4 (wire)&starz size
+  5&-": {"value": "size:4 (wire) style:starz size 5 -", "price": "15.00"}, "4 (wire)&starz
+  size 6.5&-": {"value": "size:4 (wire) style:starz size 6.5 -", "price": "15.00"},
+  "4 (wire)&smilez&-": {"value": "size:4 (wire) style:smilez -", "price": "15.00"},
+  "4 (wire)&deep space&-": {"value": "size:4 (wire) style:deep space -", "price":
+  "15.00"}, "5 (wire)&sea&-": {"value": "size:5 (wire) style:sea -", "price": "10.00"},
+  "5 (wire)&fuschia&-": {"value": "size:5 (wire) style:fuschia -", "price": "10.00"},
+  "5 (wire)&starz size 5&-": {"value": "size:5 (wire) style:starz size 5 -", "price":
+  "15.00"}, "5 (wire)&starz size 6.5&-": {"value": "size:5 (wire) style:starz size
+  6.5 -", "price": "15.00"}, "5 (wire)&smilez&-": {"value": "size:5 (wire) style:smilez
+  -", "price": "15.00"}, "5 (wire)&deep space&-": {"value": "size:5 (wire) style:deep
+  space -", "price": "15.00"}, "6 (wire)&sea&-": {"value": "size:6 (wire) style:sea
+  -", "price": "10.00"}, "6 (wire)&fuschia&-": {"value": "size:6 (wire) style:fuschia
+  -", "price": "10.00"}, "6 (wire)&starz size 5&-": {"value": "size:6 (wire) style:starz
+  size 5 -", "price": "15.00"}, "6 (wire)&starz size 6.5&-": {"value": "size:6 (wire)
+  style:starz size 6.5 -", "price": "15.00"}, "6 (wire)&smilez&-": {"value": "size:6
+  (wire) style:smilez -", "price": "15.00"}, "6 (wire)&deep space&-": {"value": "size:6
+  (wire) style:deep space -", "price": "15.00"}, "7 (wire)&sea&-": {"value": "size:7
+  (wire) style:sea -", "price": "10.00"}, "7 (wire)&fuschia&-": {"value": "size:7
+  (wire) style:fuschia -", "price": "10.00"}, "7 (wire)&starz size 5&-": {"value":
+  "size:7 (wire) style:starz size 5 -", "price": "15.00"}, "7 (wire)&starz size 6.5&-":
+  {"value": "size:7 (wire) style:starz size 6.5 -", "price": "15.00"}, "7 (wire)&smilez&-":
+  {"value": "size:7 (wire) style:smilez -", "price": "15.00"}, "7 (wire)&deep space&-":
+  {"value": "size:7 (wire) style:deep space -", "price": "15.00"}, "8 (wire)&sea&-":
+  {"value": "size:8 (wire) style:sea -", "price": "10.00"}, "8 (wire)&fuschia&-":
+  {"value": "size:8 (wire) style:fuschia -", "price": "10.00"}, "8 (wire)&starz size
+  5&-": {"value": "size:8 (wire) style:starz size 5 -", "price": "15.00"}, "8 (wire)&starz
+  size 6.5&-": {"value": "size:8 (wire) style:starz size 6.5 -", "price": "15.00"},
+  "8 (wire)&smilez&-": {"value": "size:8 (wire) style:smilez -", "price": "15.00"},
+  "8 (wire)&deep space&-": {"value": "size:8 (wire) style:deep space -", "price":
+  "15.00"}, "9 (wire)&sea&-": {"value": "size:9 (wire) style:sea -", "price": "10.00"},
+  "9 (wire)&fuschia&-": {"value": "size:9 (wire) style:fuschia -", "price": "10.00"},
+  "9 (wire)&starz size 5&-": {"value": "size:9 (wire) style:starz size 5 -", "price":
+  "15.00"}, "9 (wire)&starz size 6.5&-": {"value": "size:9 (wire) style:starz size
+  6.5 -", "price": "15.00"}, "9 (wire)&smilez&-": {"value": "size:9 (wire) style:smilez
+  -", "price": "15.00"}, "9 (wire)&deep space&-": {"value": "size:9 (wire) style:deep
   space -", "price": "15.00"}}'

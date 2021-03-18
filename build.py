@@ -18,6 +18,8 @@ main_page_template = """---
 layout: splash
 permalink: index
 date: 2016-03-23T11:48:41-04:00
+header:
+  image: /assets/images/raw/welcome_web.png
 intro:
   - excerpt: 'encounter colour'
 {content}

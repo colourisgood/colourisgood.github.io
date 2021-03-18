@@ -55,6 +55,9 @@
     -
       value: 17
       price: "10.00"
+    -
+      value: 18
+      price: "15.00"
   styles:
     -
       value: "matcha"

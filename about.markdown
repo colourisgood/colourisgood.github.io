@@ -23,6 +23,5 @@ Megan (she/her) is the creator and founder of Colour is Good. She is an artist r
 
 
 
-<br/><br/>
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/neck1.png" alt="">
+
 
