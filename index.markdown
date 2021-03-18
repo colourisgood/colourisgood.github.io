@@ -81,7 +81,7 @@ row3:
 
 {% include feature_row id="intro" type="center" %}
 
-{% include cgallery id="row0" %}
-{% include cgallery id="row1" %}
-{% include cgallery id="row2" %}
-{% include cgallery id="row3" %}
+{% include cgallery.html id="row0" %}
+{% include cgallery.html id="row1" %}
+{% include cgallery.html id="row2" %}
+{% include cgallery.html id="row3" %}
