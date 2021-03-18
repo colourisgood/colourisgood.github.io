@@ -20,7 +20,7 @@ Orders within the rest of Canada are $10.00, free if purchase is $140 and over.
 
 Orders to the United states is $20.00 
 
-All orders will recieve a confirmaion email and a tracking number within 1-10 business days. 
+All orders will receive a confirmation email and a tracking number within 1-10 business days. 
 
 **Any additional duties and taxes incurred at customs are not included in the shipping cost and are the responsibility of the customer.**
 
@@ -30,7 +30,7 @@ Colour is Good is not responsible for lost and/or stolen packages. Once the pack
 **Do you take returns and/or exchanges?** 
 All orders are **final sale**, and we cannot issue exchanges or refunds. 
 
-**What if I entered my address worng, can I get a refund?**
+**What if I entered my address wrong, can I get a refund?**
 As an independent artist sadly I can not afford to issue refunds and cannot take responsibility for addresses that have been entered incorrectly. However, if you realize that you've entered the wrong address, please email us ASAP and we will do our best to rectify the error if we can.
 
 **What are the methods of payment?**
