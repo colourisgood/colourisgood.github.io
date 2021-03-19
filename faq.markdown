@@ -14,11 +14,9 @@ toc: true
 **Where do you ship?**
 Currently we only ship to Canada and United States. 
 
-All orders within BC are free.
+Free shipping within Canada.
 
-Orders within the rest of Canada are $10.00, free if purchase is $140 and over. 
-
-Orders to the United states is $20.00 
+Shipping to the United states is $20.00 
 
 All orders will receive a confirmation email and a tracking number within 1-10 business days. 
 

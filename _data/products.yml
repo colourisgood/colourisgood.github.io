@@ -1,7 +1,7 @@
 1:
   name: "Flying Smiley"
   necklace: True
-  price: "130.00"
+  price: "140.00"
   sold: False
   sizes:
     -
@@ -45,7 +45,7 @@
 3:
   name: "Colour is Good Classic"
   necklace: True
-  price: "80.00"
+  price: "95.00"
   sizes:
     -
       value: 15
@@ -93,7 +93,7 @@
 4:
   name: "Peachy Meadows"
   necklace: True
-  price: "90.00"
+  price: "100.00"
   sizes:
     -
       value: 15
@@ -135,7 +135,7 @@
 5:
   name: "Fierce Heart"
   necklace: True
-  price: "80.00"
+  price: "90.00"
   details: "Necklace measures aprrox. 15\""
   materials:
     - "Sterling silver clasp"
@@ -153,7 +153,7 @@
 6:
   name: "Wing Divine"
   necklace: True
-  price: "110.00"
+  price: "90.00"
   sizes:
     -
       value: 15
@@ -175,7 +175,7 @@
 7:
   name: "Angel WingZ"
   necklace: True
-  price: "120.00"
+  price: "110.00"
   sizes:
     -
       value: 15
@@ -199,7 +199,7 @@
 8:
   name: "Glass Ocean"
   necklace: True
-  price: "95.00"
+  price: "90.00"
   sizes:
     -
       value: 15.5
@@ -224,28 +224,6 @@
   name: "Double Rainbow Ringzz"
   necklace: False
   price: "20.00"
-  sizes:
-    -
-      value: "one size (stretch string)" 
-      price: "0.00"
-    -
-      value: "4 (wire)"
-      price: "0.00"
-    - 
-      value: "5 (wire)"
-      price: "0.00"
-    -
-      value: "6 (wire)"
-      price: "0.00"
-    - 
-      value: "7 (wire)"
-      price: "0.00"
-    - 
-      value: "8 (wire)"
-      price: "0.00"
-    - 
-      value: "9 (wire)"
-      price: "0.00"
   styles:
     -
       value: "pearly"
@@ -253,10 +231,10 @@
     -
       value: "unicorn"
       price: "0.00"
-  details: "<b>currently only shipping within Canada, Limited Stock!</b><br>You have the option of \"one size\" stretchy string which stretches to fit approx. size 4-8, or have your ring made with silver plated wire (non-stretchy).</br>Due to the irregular shape of the pearls, ring size can not be exact and are an approximation."
+  details: "<b>currently only shipping within Canada, Limited Stock!</b><br> These styles of ring are made with stetchy string.</br>PEARLY stretches from size 5-7.</br>UNICORN stretches from size 4-6.</br>Due to the irregular shape of the pearls, ring size can not be exact and are an approximation."
   materials:
     - "AAA freshwater pearls"
-    - "Tarnish resistant silver plated wire or stretchy string"
+    - "Stretchy string"
     - "Glass beads"
   images: 
     - 
@@ -310,28 +288,16 @@
 11:
   name: "Tentacle Thangz"
   necklace: False
-  price: "10.00"
+  price: "15.00"
   sizes:
     -
-      value: "one size (stretch string)" 
+      value: "4-6 (stretch string)" 
       price: "0.00"
     -
-      value: "4 (wire)"
+      value: "7-8 (stretch string)"
       price: "0.00"
     - 
-      value: "5 (wire)"
-      price: "0.00"
-    -
-      value: "6 (wire)"
-      price: "0.00"
-    - 
-      value: "7 (wire)"
-      price: "0.00"
-    - 
-      value: "8 (wire)"
-      price: "0.00"
-    - 
-      value: "9 (wire)"
+      value: "9-10 (stretch string)"
       price: "0.00"
   styles:
     -
@@ -341,21 +307,18 @@
       value: "fuschia"
       price: "0.00"
     -
-      value: "starz size 5"
-      price: "5.00"
-    -
-      value: "starz size 6.5"
-      price: "5.00"
+      value: "starz"
+      price: "0.00"
     -
       value: "smilez"
-      price: "5.00"
+      price: "0.00"
     -
       value: "deep space"
-      price: "5.00"
-  details: "<b>currently only shipping within Canada, Limited Stock!</b><br>You have the option of \"one size\" stretchy string which stretches to fit approx. size 4-8, or have your ring made with silver plated wire (non-stretchy).</br>Due to the irregular shape of the pearls, ring size can not be exact and are an approximation."
+      price: "0.00"
+  details: "<b>currently only shipping within Canada, Limited Stock!</b><br>There are different size options for these styles of rings, made with stretchy string.</br>Due to the irregular shape of the pearls, ring size can not be exact and are an approximation."
   materials:
     - "AAA freshwater pearls"
-    - "Tarnish resistant silver plated wire or stretchy string"
+    - "Stretchy string"
     - "Glass beads"
     - "Abalone shell stars in STARZ & DEEP SPACE"
   images: 
