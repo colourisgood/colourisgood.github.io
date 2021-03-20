@@ -83,7 +83,7 @@ layout: splash
         <div class="mySlides fade">
           <div class="numbertext">{{forloop.index}}</div>
           {% if image.video %}
-            <video width="480" height="280" controls autoplay="autoplay" muted="muted">
+            <video controls autoplay="autoplay" muted="muted">
               <source src="{{image.path}}" type="video/mp4">
             </video>
           {% else %}
