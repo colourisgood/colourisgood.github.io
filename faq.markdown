@@ -16,7 +16,7 @@ Currently we only ship to Canada and United States.
 
 Free shipping within Canada.
 
-Shipping to the United states is $20.00 
+Shipping to the United states is $20.00 USD
 
 All orders will receive a confirmation email and a tracking number within 1-10 business days. 
 
