@@ -1,184 +1,173 @@
 1: "<form target=\"paypal\" action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"\
   post\" style=\"padding:0px\">\n<input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\"\
-  >\n<input type=\"hidden\" name=\"hosted_button_id\" value=\"DPK64ZD2ERMQS\">\n<table\
+  >\n<input type=\"hidden\" name=\"hosted_button_id\" value=\"X8CF9A66DN6BE\">\n<table\
   \ style=\"display:none;\">\n<tr><td><input type=\"hidden\" name=\"on0\" value=\"\
   Options\">Options</td></tr><tr><td><select name=\"os0\">\n\t<option value=\"size:15\
-  \ style:- silver\">size:15 style:- silver $130.00 USD</option>\n\t<option value=\"\
-  size:15 style:- gold\">size:15 style:- gold $136.00 USD</option>\n\t<option value=\"\
-  size:16 style:- silver\">size:16 style:- silver $135.00 USD</option>\n\t<option\
-  \ value=\"size:16 style:- gold\">size:16 style:- gold $141.00 USD</option>\n</select></td></tr>\n\
-  </table>\n<input type=\"hidden\" name=\"currency_code\" value=\"USD\">\n<input type=\"\
+  \ style:- silver\">size:15 style:- silver $140.00 CAD</option>\n\t<option value=\"\
+  size:15 style:- gold\">size:15 style:- gold $146.00 CAD</option>\n\t<option value=\"\
+  size:16 style:- silver\">size:16 style:- silver $145.00 CAD</option>\n\t<option\
+  \ value=\"size:16 style:- gold\">size:16 style:- gold $151.00 CAD</option>\n</select></td></tr>\n\
+  </table>\n<input type=\"hidden\" name=\"currency_code\" value=\"CAD\">\n<input type=\"\
   image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif\" border=\"\
   0\" name=\"submit\" alt=\"\">\n<img alt=\"\" border=\"0\" src=\"https://www.paypalobjects.com/en_US/i/scr/pixel.gif\"\
   \ width=\"1\" height=\"1\">\n</form>"
 2: "<form target=\"paypal\" action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"\
   post\" style=\"padding:0px\">\n<input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\"\
-  >\n<input type=\"hidden\" name=\"hosted_button_id\" value=\"BHP732T48JF2E\">\n<table\
+  >\n<input type=\"hidden\" name=\"hosted_button_id\" value=\"MTR86VATZGRFG\">\n<table\
   \ style=\"display:none;\">\n<tr><td><input type=\"hidden\" name=\"on0\" value=\"\
   Options\">Options</td></tr><tr><td><select name=\"os0\">\n\t<option value=\"size:-\
-  \ style:- silver\">size:- style:- silver $90.00 USD</option>\n\t<option value=\"\
-  size:- style:- gold\">size:- style:- gold $96.00 USD</option>\n</select></td></tr>\n\
-  </table>\n<input type=\"hidden\" name=\"currency_code\" value=\"USD\">\n<input type=\"\
+  \ style:- silver\">size:- style:- silver $90.00 CAD</option>\n\t<option value=\"\
+  size:- style:- gold\">size:- style:- gold $96.00 CAD</option>\n</select></td></tr>\n\
+  </table>\n<input type=\"hidden\" name=\"currency_code\" value=\"CAD\">\n<input type=\"\
   image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif\" border=\"\
   0\" name=\"submit\" alt=\"\">\n<img alt=\"\" border=\"0\" src=\"https://www.paypalobjects.com/en_US/i/scr/pixel.gif\"\
   \ width=\"1\" height=\"1\">\n</form>"
 3: "<form target=\"paypal\" action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"\
   post\" style=\"padding:0px\">\n<input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\"\
-  >\n<input type=\"hidden\" name=\"hosted_button_id\" value=\"65PVFPUNC3XU8\">\n<table\
+  >\n<input type=\"hidden\" name=\"hosted_button_id\" value=\"TUCKF7Z9D54UA\">\n<table\
   \ style=\"display:none;\">\n<tr><td><input type=\"hidden\" name=\"on0\" value=\"\
   Options\">Options</td></tr><tr><td><select name=\"os0\">\n\t<option value=\"size:15\
-  \ style:matcha silver\">size:15 style:matcha silver $80.00 USD</option>\n\t<option\
-  \ value=\"size:15 style:matcha gold\">size:15 style:matcha gold $86.00 USD</option>\n\
-  \t<option value=\"size:15 style:teddy silver\">size:15 style:teddy silver $80.00\
-  \ USD</option>\n\t<option value=\"size:15 style:teddy gold\">size:15 style:teddy\
-  \ gold $86.00 USD</option>\n\t<option value=\"size:15 style:seaglass silver\">size:15\
-  \ style:seaglass silver $80.00 USD</option>\n\t<option value=\"size:15 style:seaglass\
-  \ gold\">size:15 style:seaglass gold $86.00 USD</option>\n\t<option value=\"size:16\
-  \ style:matcha silver\">size:16 style:matcha silver $85.00 USD</option>\n\t<option\
-  \ value=\"size:16 style:matcha gold\">size:16 style:matcha gold $91.00 USD</option>\n\
-  \t<option value=\"size:16 style:teddy silver\">size:16 style:teddy silver $85.00\
-  \ USD</option>\n\t<option value=\"size:16 style:teddy gold\">size:16 style:teddy\
-  \ gold $91.00 USD</option>\n</select></td></tr>\n</table>\n<input type=\"hidden\"\
-  \ name=\"currency_code\" value=\"USD\">\n<input type=\"image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif\"\
+  \ style:matcha silver\">size:15 style:matcha silver $95.00 CAD</option>\n\t<option\
+  \ value=\"size:15 style:matcha gold\">size:15 style:matcha gold $101.00 CAD</option>\n\
+  \t<option value=\"size:15 style:teddy silver\">size:15 style:teddy silver $95.00\
+  \ CAD</option>\n\t<option value=\"size:15 style:teddy gold\">size:15 style:teddy\
+  \ gold $101.00 CAD</option>\n\t<option value=\"size:15 style:seaglass silver\">size:15\
+  \ style:seaglass silver $95.00 CAD</option>\n\t<option value=\"size:15 style:seaglass\
+  \ gold\">size:15 style:seaglass gold $101.00 CAD</option>\n\t<option value=\"size:16\
+  \ style:matcha silver\">size:16 style:matcha silver $100.00 CAD</option>\n\t<option\
+  \ value=\"size:16 style:matcha gold\">size:16 style:matcha gold $106.00 CAD</option>\n\
+  \t<option value=\"size:16 style:teddy silver\">size:16 style:teddy silver $100.00\
+  \ CAD</option>\n\t<option value=\"size:16 style:teddy gold\">size:16 style:teddy\
+  \ gold $106.00 CAD</option>\n</select></td></tr>\n</table>\n<input type=\"hidden\"\
+  \ name=\"currency_code\" value=\"CAD\">\n<input type=\"image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif\"\
   \ border=\"0\" name=\"submit\" alt=\"\">\n<img alt=\"\" border=\"0\" src=\"https://www.paypalobjects.com/en_US/i/scr/pixel.gif\"\
   \ width=\"1\" height=\"1\">\n</form>"
 4: "<form target=\"paypal\" action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"\
   post\" style=\"padding:0px\">\n<input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\"\
-  >\n<input type=\"hidden\" name=\"hosted_button_id\" value=\"W4RBEL4WUWMV8\">\n<table\
+  >\n<input type=\"hidden\" name=\"hosted_button_id\" value=\"FGU9EV782PHEU\">\n<table\
   \ style=\"display:none;\">\n<tr><td><input type=\"hidden\" name=\"on0\" value=\"\
   Options\">Options</td></tr><tr><td><select name=\"os0\">\n\t<option value=\"size:15\
-  \ style:bunny and flowers silver\">size:15 style:bunny and flowers silver $98.00\
-  \ USD</option>\n\t<option value=\"size:15 style:bunny and flowers gold\">size:15\
-  \ style:bunny and flowers gold $104.00 USD</option>\n\t<option value=\"size:15 style:plain\
-  \ silver\">size:15 style:plain silver $90.00 USD</option>\n\t<option value=\"size:15\
-  \ style:plain gold\">size:15 style:plain gold $96.00 USD</option>\n\t<option value=\"\
+  \ style:bunny and flowers silver\">size:15 style:bunny and flowers silver $108.00\
+  \ CAD</option>\n\t<option value=\"size:15 style:bunny and flowers gold\">size:15\
+  \ style:bunny and flowers gold $114.00 CAD</option>\n\t<option value=\"size:15 style:plain\
+  \ silver\">size:15 style:plain silver $100.00 CAD</option>\n\t<option value=\"size:15\
+  \ style:plain gold\">size:15 style:plain gold $106.00 CAD</option>\n\t<option value=\"\
   size:16 style:bunny and flowers silver\">size:16 style:bunny and flowers silver\
-  \ $103.00 USD</option>\n\t<option value=\"size:16 style:bunny and flowers gold\"\
-  >size:16 style:bunny and flowers gold $109.00 USD</option>\n\t<option value=\"size:16\
-  \ style:plain silver\">size:16 style:plain silver $95.00 USD</option>\n\t<option\
-  \ value=\"size:16 style:plain gold\">size:16 style:plain gold $101.00 USD</option>\n\
+  \ $113.00 CAD</option>\n\t<option value=\"size:16 style:bunny and flowers gold\"\
+  >size:16 style:bunny and flowers gold $119.00 CAD</option>\n\t<option value=\"size:16\
+  \ style:plain silver\">size:16 style:plain silver $105.00 CAD</option>\n\t<option\
+  \ value=\"size:16 style:plain gold\">size:16 style:plain gold $111.00 CAD</option>\n\
   \t<option value=\"size:17 style:bunny and flowers silver\">size:17 style:bunny and\
-  \ flowers silver $108.00 USD</option>\n\t<option value=\"size:17 style:bunny and\
-  \ flowers gold\">size:17 style:bunny and flowers gold $114.00 USD</option>\n</select></td></tr>\n\
-  </table>\n<input type=\"hidden\" name=\"currency_code\" value=\"USD\">\n<input type=\"\
+  \ flowers silver $118.00 CAD</option>\n\t<option value=\"size:17 style:bunny and\
+  \ flowers gold\">size:17 style:bunny and flowers gold $124.00 CAD</option>\n</select></td></tr>\n\
+  </table>\n<input type=\"hidden\" name=\"currency_code\" value=\"CAD\">\n<input type=\"\
   image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif\" border=\"\
   0\" name=\"submit\" alt=\"\">\n<img alt=\"\" border=\"0\" src=\"https://www.paypalobjects.com/en_US/i/scr/pixel.gif\"\
   \ width=\"1\" height=\"1\">\n</form>"
 5: "<form target=\"paypal\" action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"\
   post\" style=\"padding:0px\">\n<input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\"\
-  >\n<input type=\"hidden\" name=\"hosted_button_id\" value=\"P22FQ4LMKB4QU\">\n<table\
+  >\n<input type=\"hidden\" name=\"hosted_button_id\" value=\"UF7G5MEBG7QSC\">\n<table\
   \ style=\"display:none;\">\n<tr><td><input type=\"hidden\" name=\"on0\" value=\"\
   Options\">Options</td></tr><tr><td><select name=\"os0\">\n\t<option value=\"size:-\
-  \ style:- silver\">size:- style:- silver $80.00 USD</option>\n\t<option value=\"\
-  size:- style:- gold\">size:- style:- gold $86.00 USD</option>\n</select></td></tr>\n\
-  </table>\n<input type=\"hidden\" name=\"currency_code\" value=\"USD\">\n<input type=\"\
+  \ style:- silver\">size:- style:- silver $90.00 CAD</option>\n\t<option value=\"\
+  size:- style:- gold\">size:- style:- gold $96.00 CAD</option>\n</select></td></tr>\n\
+  </table>\n<input type=\"hidden\" name=\"currency_code\" value=\"CAD\">\n<input type=\"\
   image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif\" border=\"\
   0\" name=\"submit\" alt=\"\">\n<img alt=\"\" border=\"0\" src=\"https://www.paypalobjects.com/en_US/i/scr/pixel.gif\"\
   \ width=\"1\" height=\"1\">\n</form>"
 6: "<form target=\"paypal\" action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"\
   post\" style=\"padding:0px\">\n<input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\"\
-  >\n<input type=\"hidden\" name=\"hosted_button_id\" value=\"SF2VT4X3VF6EA\">\n<table\
+  >\n<input type=\"hidden\" name=\"hosted_button_id\" value=\"LD5LP2GZ2T36G\">\n<table\
   \ style=\"display:none;\">\n<tr><td><input type=\"hidden\" name=\"on0\" value=\"\
   Options\">Options</td></tr><tr><td><select name=\"os0\">\n\t<option value=\"size:15\
-  \ style:- silver\">size:15 style:- silver $110.00 USD</option>\n\t<option value=\"\
-  size:15 style:- gold\">size:15 style:- gold $116.00 USD</option>\n\t<option value=\"\
-  size:16 style:- silver\">size:16 style:- silver $115.00 USD</option>\n\t<option\
-  \ value=\"size:16 style:- gold\">size:16 style:- gold $121.00 USD</option>\n</select></td></tr>\n\
-  </table>\n<input type=\"hidden\" name=\"currency_code\" value=\"USD\">\n<input type=\"\
+  \ style:- silver\">size:15 style:- silver $90.00 CAD</option>\n\t<option value=\"\
+  size:15 style:- gold\">size:15 style:- gold $96.00 CAD</option>\n\t<option value=\"\
+  size:16 style:- silver\">size:16 style:- silver $95.00 CAD</option>\n\t<option value=\"\
+  size:16 style:- gold\">size:16 style:- gold $101.00 CAD</option>\n</select></td></tr>\n\
+  </table>\n<input type=\"hidden\" name=\"currency_code\" value=\"CAD\">\n<input type=\"\
   image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif\" border=\"\
   0\" name=\"submit\" alt=\"\">\n<img alt=\"\" border=\"0\" src=\"https://www.paypalobjects.com/en_US/i/scr/pixel.gif\"\
   \ width=\"1\" height=\"1\">\n</form>"
 7: "<form target=\"paypal\" action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"\
   post\" style=\"padding:0px\">\n<input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\"\
-  >\n<input type=\"hidden\" name=\"hosted_button_id\" value=\"6RF44D3BSAQMG\">\n<table\
+  >\n<input type=\"hidden\" name=\"hosted_button_id\" value=\"UTC78TY9HY4SJ\">\n<table\
   \ style=\"display:none;\">\n<tr><td><input type=\"hidden\" name=\"on0\" value=\"\
   Options\">Options</td></tr><tr><td><select name=\"os0\">\n\t<option value=\"size:15\
-  \ style:- silver\">size:15 style:- silver $120.00 USD</option>\n\t<option value=\"\
-  size:15 style:- gold\">size:15 style:- gold $126.00 USD</option>\n\t<option value=\"\
-  size:16 style:- silver\">size:16 style:- silver $125.00 USD</option>\n\t<option\
-  \ value=\"size:16 style:- gold\">size:16 style:- gold $131.00 USD</option>\n</select></td></tr>\n\
-  </table>\n<input type=\"hidden\" name=\"currency_code\" value=\"USD\">\n<input type=\"\
+  \ style:- silver\">size:15 style:- silver $110.00 CAD</option>\n\t<option value=\"\
+  size:15 style:- gold\">size:15 style:- gold $116.00 CAD</option>\n\t<option value=\"\
+  size:16 style:- silver\">size:16 style:- silver $115.00 CAD</option>\n\t<option\
+  \ value=\"size:16 style:- gold\">size:16 style:- gold $121.00 CAD</option>\n</select></td></tr>\n\
+  </table>\n<input type=\"hidden\" name=\"currency_code\" value=\"CAD\">\n<input type=\"\
   image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif\" border=\"\
   0\" name=\"submit\" alt=\"\">\n<img alt=\"\" border=\"0\" src=\"https://www.paypalobjects.com/en_US/i/scr/pixel.gif\"\
   \ width=\"1\" height=\"1\">\n</form>"
 8: "<form target=\"paypal\" action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"\
   post\" style=\"padding:0px\">\n<input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\"\
-  >\n<input type=\"hidden\" name=\"hosted_button_id\" value=\"L73MJ7MZJYLP4\">\n<table\
+  >\n<input type=\"hidden\" name=\"hosted_button_id\" value=\"FDV8U5D9EQ7JL\">\n<table\
   \ style=\"display:none;\">\n<tr><td><input type=\"hidden\" name=\"on0\" value=\"\
   Options\">Options</td></tr><tr><td><select name=\"os0\">\n\t<option value=\"size:15.5\
-  \ style:- silver\">size:15.5 style:- silver $95.00 USD</option>\n\t<option value=\"\
-  size:15.5 style:- gold\">size:15.5 style:- gold $101.00 USD</option>\n\t<option\
-  \ value=\"size:17.5 style:- silver\">size:17.5 style:- silver $105.00 USD</option>\n\
-  \t<option value=\"size:17.5 style:- gold\">size:17.5 style:- gold $111.00 USD</option>\n\
+  \ style:- silver\">size:15.5 style:- silver $90.00 CAD</option>\n\t<option value=\"\
+  size:15.5 style:- gold\">size:15.5 style:- gold $96.00 CAD</option>\n\t<option value=\"\
+  size:17.5 style:- silver\">size:17.5 style:- silver $100.00 CAD</option>\n\t<option\
+  \ value=\"size:17.5 style:- gold\">size:17.5 style:- gold $106.00 CAD</option>\n\
   </select></td></tr>\n</table>\n<input type=\"hidden\" name=\"currency_code\" value=\"\
-  USD\">\n<input type=\"image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif\"\
+  CAD\">\n<input type=\"image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif\"\
   \ border=\"0\" name=\"submit\" alt=\"\">\n<img alt=\"\" border=\"0\" src=\"https://www.paypalobjects.com/en_US/i/scr/pixel.gif\"\
   \ width=\"1\" height=\"1\">\n</form>"
 9: "<form target=\"paypal\" action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"\
   post\" style=\"padding:0px\">\n<input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\"\
-  >\n<input type=\"hidden\" name=\"hosted_button_id\" value=\"4FBJDCBXKY7NJ\">\n<table\
+  >\n<input type=\"hidden\" name=\"hosted_button_id\" value=\"6X4VDSGJN45KQ\">\n<table\
   \ style=\"display:none;\">\n<tr><td><input type=\"hidden\" name=\"on0\" value=\"\
-  Options\">Options</td></tr><tr><td><select name=\"os0\">\n\t<option value=\"size:one\
-  \ size (stretch string) style:pearly -\">size:one size (stretch string) style:pearly\
-  \ - $20.00 USD</option>\n\t<option value=\"size:one size (stretch string) style:unicorn\
-  \ -\">size:one size (stretch string) style:unicorn - $20.00 USD</option>\n\t<option\
-  \ value=\"size:4 (wire) style:pearly -\">size:4 (wire) style:pearly - $20.00 USD</option>\n\
-  \t<option value=\"size:4 (wire) style:unicorn -\">size:4 (wire) style:unicorn -\
-  \ $20.00 USD</option>\n\t<option value=\"size:5 (wire) style:pearly -\">size:5 (wire)\
-  \ style:pearly - $20.00 USD</option>\n\t<option value=\"size:5 (wire) style:unicorn\
-  \ -\">size:5 (wire) style:unicorn - $20.00 USD</option>\n\t<option value=\"size:6\
-  \ (wire) style:pearly -\">size:6 (wire) style:pearly - $20.00 USD</option>\n\t<option\
-  \ value=\"size:6 (wire) style:unicorn -\">size:6 (wire) style:unicorn - $20.00 USD</option>\n\
-  \t<option value=\"size:7 (wire) style:pearly -\">size:7 (wire) style:pearly - $20.00\
-  \ USD</option>\n\t<option value=\"size:7 (wire) style:unicorn -\">size:7 (wire)\
-  \ style:unicorn - $20.00 USD</option>\n</select></td></tr>\n</table>\n<input type=\"\
-  hidden\" name=\"currency_code\" value=\"USD\">\n<input type=\"image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif\"\
-  \ border=\"0\" name=\"submit\" alt=\"\">\n<img alt=\"\" border=\"0\" src=\"https://www.paypalobjects.com/en_US/i/scr/pixel.gif\"\
+  Options\">Options</td></tr><tr><td><select name=\"os0\">\n\t<option value=\"size:-\
+  \ style:pearly -\">size:- style:pearly - $20.00 CAD</option>\n\t<option value=\"\
+  size:- style:unicorn -\">size:- style:unicorn - $20.00 CAD</option>\n</select></td></tr>\n\
+  </table>\n<input type=\"hidden\" name=\"currency_code\" value=\"CAD\">\n<input type=\"\
+  image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif\" border=\"\
+  0\" name=\"submit\" alt=\"\">\n<img alt=\"\" border=\"0\" src=\"https://www.paypalobjects.com/en_US/i/scr/pixel.gif\"\
   \ width=\"1\" height=\"1\">\n</form>"
 10: "<form target=\"paypal\" action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"\
   post\" style=\"padding:0px\">\n<input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\"\
-  >\n<input type=\"hidden\" name=\"hosted_button_id\" value=\"PQSKTX783F5TY\">\n<table\
+  >\n<input type=\"hidden\" name=\"hosted_button_id\" value=\"AULRPBLS4VPF4\">\n<table\
   \ style=\"display:none;\">\n<tr><td><input type=\"hidden\" name=\"on0\" value=\"\
   Options\">Options</td></tr><tr><td><select name=\"os0\">\n\t<option value=\"size:15\
-  \ style:option is cheap silver\">size:15 style:option is cheap silver $80.00 USD</option>\n\
+  \ style:option is cheap silver\">size:15 style:option is cheap silver $80.00 CAD</option>\n\
   \t<option value=\"size:15 style:option is cheap gold\">size:15 style:option is cheap\
-  \ gold $86.00 USD</option>\n\t<option value=\"size:15 style:option is expensive\
-  \ silver\">size:15 style:option is expensive silver $80.00 USD</option>\n\t<option\
+  \ gold $86.00 CAD</option>\n\t<option value=\"size:15 style:option is expensive\
+  \ silver\">size:15 style:option is expensive silver $80.00 CAD</option>\n\t<option\
   \ value=\"size:15 style:option is expensive gold\">size:15 style:option is expensive\
-  \ gold $86.00 USD</option>\n\t<option value=\"size:16 style:option is cheap silver\"\
-  >size:16 style:option is cheap silver $85.00 USD</option>\n\t<option value=\"size:16\
-  \ style:option is cheap gold\">size:16 style:option is cheap gold $91.00 USD</option>\n\
+  \ gold $86.00 CAD</option>\n\t<option value=\"size:16 style:option is cheap silver\"\
+  >size:16 style:option is cheap silver $85.00 CAD</option>\n\t<option value=\"size:16\
+  \ style:option is cheap gold\">size:16 style:option is cheap gold $91.00 CAD</option>\n\
   \t<option value=\"size:16 style:option is expensive silver\">size:16 style:option\
-  \ is expensive silver $85.00 USD</option>\n\t<option value=\"size:16 style:option\
-  \ is expensive gold\">size:16 style:option is expensive gold $91.00 USD</option>\n\
+  \ is expensive silver $85.00 CAD</option>\n\t<option value=\"size:16 style:option\
+  \ is expensive gold\">size:16 style:option is expensive gold $91.00 CAD</option>\n\
   \t<option value=\"size:17 style:option is cheap silver\">size:17 style:option is\
-  \ cheap silver $90.00 USD</option>\n\t<option value=\"size:17 style:option is cheap\
-  \ gold\">size:17 style:option is cheap gold $96.00 USD</option>\n</select></td></tr>\n\
-  </table>\n<input type=\"hidden\" name=\"currency_code\" value=\"USD\">\n<input type=\"\
+  \ cheap silver $90.00 CAD</option>\n\t<option value=\"size:17 style:option is cheap\
+  \ gold\">size:17 style:option is cheap gold $96.00 CAD</option>\n</select></td></tr>\n\
+  </table>\n<input type=\"hidden\" name=\"currency_code\" value=\"CAD\">\n<input type=\"\
   image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif\" border=\"\
   0\" name=\"submit\" alt=\"\">\n<img alt=\"\" border=\"0\" src=\"https://www.paypalobjects.com/en_US/i/scr/pixel.gif\"\
   \ width=\"1\" height=\"1\">\n</form>"
 11: "<form target=\"paypal\" action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"\
   post\" style=\"padding:0px\">\n<input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\"\
-  >\n<input type=\"hidden\" name=\"hosted_button_id\" value=\"CSKK5H7WW9MBE\">\n<table\
+  >\n<input type=\"hidden\" name=\"hosted_button_id\" value=\"SK4AGMPGY3ESQ\">\n<table\
   \ style=\"display:none;\">\n<tr><td><input type=\"hidden\" name=\"on0\" value=\"\
-  Options\">Options</td></tr><tr><td><select name=\"os0\">\n\t<option value=\"size:one\
-  \ size (stretch string) style:sea -\">size:one size (stretch string) style:sea -\
-  \ $10.00 USD</option>\n\t<option value=\"size:one size (stretch string) style:fuschia\
-  \ -\">size:one size (stretch string) style:fuschia - $10.00 USD</option>\n\t<option\
-  \ value=\"size:one size (stretch string) style:starz size 5 -\">size:one size (stretch\
-  \ string) style:starz size 5 - $15.00 USD</option>\n\t<option value=\"size:one size\
-  \ (stretch string) style:starz size 6.5 -\">size:one size (stretch string) style:starz\
-  \ size 6.5 - $15.00 USD</option>\n\t<option value=\"size:one size (stretch string)\
-  \ style:smilez -\">size:one size (stretch string) style:smilez - $15.00 USD</option>\n\
-  \t<option value=\"size:one size (stretch string) style:deep space -\">size:one size\
-  \ (stretch string) style:deep space - $15.00 USD</option>\n\t<option value=\"size:4\
-  \ (wire) style:sea -\">size:4 (wire) style:sea - $10.00 USD</option>\n\t<option\
-  \ value=\"size:4 (wire) style:fuschia -\">size:4 (wire) style:fuschia - $10.00 USD</option>\n\
-  \t<option value=\"size:4 (wire) style:starz size 5 -\">size:4 (wire) style:starz\
-  \ size 5 - $15.00 USD</option>\n\t<option value=\"size:4 (wire) style:starz size\
-  \ 6.5 -\">size:4 (wire) style:starz size 6.5 - $15.00 USD</option>\n</select></td></tr>\n\
-  </table>\n<input type=\"hidden\" name=\"currency_code\" value=\"USD\">\n<input type=\"\
-  image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif\" border=\"\
-  0\" name=\"submit\" alt=\"\">\n<img alt=\"\" border=\"0\" src=\"https://www.paypalobjects.com/en_US/i/scr/pixel.gif\"\
+  Options\">Options</td></tr><tr><td><select name=\"os0\">\n\t<option value=\"size:4-6\
+  \ (stretch string) style:sea -\">size:4-6 (stretch string) style:sea - $15.00 CAD</option>\n\
+  \t<option value=\"size:4-6 (stretch string) style:fuschia -\">size:4-6 (stretch\
+  \ string) style:fuschia - $15.00 CAD</option>\n\t<option value=\"size:4-6 (stretch\
+  \ string) style:starz -\">size:4-6 (stretch string) style:starz - $15.00 CAD</option>\n\
+  \t<option value=\"size:4-6 (stretch string) style:smilez -\">size:4-6 (stretch string)\
+  \ style:smilez - $15.00 CAD</option>\n\t<option value=\"size:4-6 (stretch string)\
+  \ style:deep space -\">size:4-6 (stretch string) style:deep space - $15.00 CAD</option>\n\
+  \t<option value=\"size:7-8 (stretch string) style:sea -\">size:7-8 (stretch string)\
+  \ style:sea - $15.00 CAD</option>\n\t<option value=\"size:7-8 (stretch string) style:fuschia\
+  \ -\">size:7-8 (stretch string) style:fuschia - $15.00 CAD</option>\n\t<option value=\"\
+  size:7-8 (stretch string) style:starz -\">size:7-8 (stretch string) style:starz\
+  \ - $15.00 CAD</option>\n\t<option value=\"size:7-8 (stretch string) style:smilez\
+  \ -\">size:7-8 (stretch string) style:smilez - $15.00 CAD</option>\n\t<option value=\"\
+  size:7-8 (stretch string) style:deep space -\">size:7-8 (stretch string) style:deep\
+  \ space - $15.00 CAD</option>\n</select></td></tr>\n</table>\n<input type=\"hidden\"\
+  \ name=\"currency_code\" value=\"CAD\">\n<input type=\"image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif\"\
+  \ border=\"0\" name=\"submit\" alt=\"\">\n<img alt=\"\" border=\"0\" src=\"https://www.paypalobjects.com/en_US/i/scr/pixel.gif\"\
   \ width=\"1\" height=\"1\">\n</form>"

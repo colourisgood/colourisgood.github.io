@@ -107,6 +107,8 @@ if __name__ == "__main__":
       buttons[product_num+1] = button_html
       all_options[product_num+1] = json.dumps(merged_options_yml)
 
+      #break
+
 
   if args.paypal:
     with open("_data/paypal_buttons.yml", "w") as f:
