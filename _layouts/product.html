@@ -83,11 +83,11 @@ layout: splash
         <div class="mySlides fade">
           <div class="numbertext">{{forloop.index}}</div>
           {% if image.video %}
-            <video controls autoplay="autoplay" muted="muted">
+            <video style="width:100%" controls autoplay="autoplay" muted="muted">
               <source src="{{image.path}}" type="video/mp4">
             </video>
           {% else %}
-            <img src="{{image.path}}" style="width:480px">
+            <img style="border-radius:0px" src="{{image.path}}" style="width:480px">
           {% endif %}
           <div class="text">{{image.caption}}</div>
         </div>
@@ -102,7 +102,7 @@ layout: splash
       {% endfor %}
     </div>
     {% else %}
-      <img src="{{ product.images[0].path }}">
+      <img style="border-radius:0px" src="{{ product.images[0].path }}">
     {% endif %}
   </div>
 
