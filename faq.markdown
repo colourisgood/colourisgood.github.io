@@ -22,9 +22,6 @@ All orders will receive a confirmation email and a tracking number within 1-10 b
 
 **Any additional duties and taxes incurred at customs are not included in the shipping cost and are the responsibility of the customer.**
 
-**What happens if my package is lost or stolen?**
-Colour is Good is not responsible for lost and/or stolen packages. Once the package has been mailed Colour is Good no longer is responsible for the shipment and it's contents.  
-
 **Do you take returns and/or exchanges?** 
 All orders are **final sale**, and we cannot issue exchanges or refunds. 
 
