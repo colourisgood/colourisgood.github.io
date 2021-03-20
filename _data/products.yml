@@ -265,13 +265,6 @@
     -
       value: 18
       price: "15.00"
-  styles:
-    -
-      value: "option is cheap"
-      price: "0.00"
-    -
-      value: "option is expensive"
-      price: "0.00"
   materials: 
     - "Grey silver rainbow AAA freshwater pearls"
     - "Tarnish resistant silver plated wire"

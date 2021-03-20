@@ -56,25 +56,13 @@
   style:- gold", "price": "106.00"}}'
 9: '{"-&pearly&-": {"value": "size:- style:pearly -", "price": "20.00"}, "-&unicorn&-":
   {"value": "size:- style:unicorn -", "price": "20.00"}}'
-10: '{"15&option is cheap&silver": {"value": "size:15 style:option is cheap silver",
-  "price": "80.00"}, "15&option is cheap&gold": {"value": "size:15 style:option is
-  cheap gold", "price": "86.00"}, "15&option is expensive&silver": {"value": "size:15
-  style:option is expensive silver", "price": "80.00"}, "15&option is expensive&gold":
-  {"value": "size:15 style:option is expensive gold", "price": "86.00"}, "16&option
-  is cheap&silver": {"value": "size:16 style:option is cheap silver", "price": "85.00"},
-  "16&option is cheap&gold": {"value": "size:16 style:option is cheap gold", "price":
-  "91.00"}, "16&option is expensive&silver": {"value": "size:16 style:option is expensive
-  silver", "price": "85.00"}, "16&option is expensive&gold": {"value": "size:16 style:option
-  is expensive gold", "price": "91.00"}, "17&option is cheap&silver": {"value": "size:17
-  style:option is cheap silver", "price": "90.00"}, "17&option is cheap&gold": {"value":
-  "size:17 style:option is cheap gold", "price": "96.00"}, "17&option is expensive&silver":
-  {"value": "size:17 style:option is expensive silver", "price": "90.00"}, "17&option
-  is expensive&gold": {"value": "size:17 style:option is expensive gold", "price":
-  "96.00"}, "18&option is cheap&silver": {"value": "size:18 style:option is cheap
-  silver", "price": "95.00"}, "18&option is cheap&gold": {"value": "size:18 style:option
-  is cheap gold", "price": "101.00"}, "18&option is expensive&silver": {"value": "size:18
-  style:option is expensive silver", "price": "95.00"}, "18&option is expensive&gold":
-  {"value": "size:18 style:option is expensive gold", "price": "101.00"}}'
+10: '{"15&-&silver": {"value": "size:15 style:- silver", "price": "80.00"}, "15&-&gold":
+  {"value": "size:15 style:- gold", "price": "86.00"}, "16&-&silver": {"value": "size:16
+  style:- silver", "price": "85.00"}, "16&-&gold": {"value": "size:16 style:- gold",
+  "price": "91.00"}, "17&-&silver": {"value": "size:17 style:- silver", "price": "90.00"},
+  "17&-&gold": {"value": "size:17 style:- gold", "price": "96.00"}, "18&-&silver":
+  {"value": "size:18 style:- silver", "price": "95.00"}, "18&-&gold": {"value": "size:18
+  style:- gold", "price": "101.00"}}'
 11: '{"4-6 (stretch string)&sea&-": {"value": "size:4-6 (stretch string) style:sea
   -", "price": "15.00"}, "4-6 (stretch string)&fuschia&-": {"value": "size:4-6 (stretch
   string) style:fuschia -", "price": "15.00"}, "4-6 (stretch string)&starz&-": {"value":
