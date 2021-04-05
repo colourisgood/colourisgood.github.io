@@ -19,7 +19,7 @@ Thank you for joining me in this colourful journey, I can’t wait to see where 
 :wavy_dash: <span style="color:#4668d6;"><b>Megan</b></span> :wavy_dash: 
 
 
-Megan (she/her) is the creator and founder of Colour is Good. She is an artist residing on the traditional and unceded territories of the Coast Salish peoples–Sḵwx̱wú7mesh (Squamish), Stó:lō and Səl̓ílwətaʔ/Selilwitulh (Tsleil-Waututh) and xʷməθkʷəy̓əm (Musqueam) Nations. She is a professional dancer, photographer, painter, scribbler, video maker, jewelry crafter and just loves making things. She is Haitian, Irish, and Scottish and hopes one day to visit the places of her heritage. She is passionate about the arts community and has hope for it to be better, brighter, more changed, and a place of equal opportunity where everyone is allowed to shine their brightest colours.:rainbow: :rainbow: :rainbow:
+Megan (she/her) is the creator and founder of Colour is Good. She is an artist residing on the traditional and unceded territories of the Coast Salish peoples–Sḵwx̱wú7mesh (Squamish), Stó:lō and Səl̓ílwətaʔ/Selilwitulh (Tsleil-Waututh) and xʷməθkʷəy̓əm (Musqueam) Nations. She is a professional dancer, photographer, painter, scribbler, video maker, jewelry crafter and just loves making things. She is also the creator and illustrator of Colour is Good Comics. She is Haitian, Irish, and Scottish and hopes one day to visit the places of her heritage. She is passionate about the arts community and has hope for it to be better, brighter, more changed, and a place of equal opportunity where everyone is allowed to shine their brightest colours.:rainbow: :rainbow: :rainbow:
 
 
 
