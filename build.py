@@ -65,12 +65,15 @@ if __name__ == "__main__":
   items = []
   for product_num,(k,v) in enumerate(products.items()):
     print("BUILDING ", product_num)
+    price_str = "${price}".format(price=v["price"])
+    if v.get("sold_out",False):
+      price_str += '<span style="color:RED"> SOLD OUT</span>'
     item = {
       "image_path" : v["images"][0]["path"],
       "image_url" : "product/{}".format(k),
       "alt" : "placehold text",
       "title" : v["name"],
-      "excerpt" : "${price}".format(price=v["price"]),
+      "excerpt" : price_str,
       "background" : v.get("background", "red")
     }
     if v.get("sold",False):

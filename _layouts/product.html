@@ -37,34 +37,36 @@ layout: splash
 
 
   function update_price() {
-    var index = 0;
-    var size = document.getElementById("size");
-    var size_description = "-";
-    if (size != null) {
-      size_description = size.options[size.selectedIndex].text;
-    }
-    var style = document.getElementById("style");
-    var style_description = "-";
-    if (style != null) {
-      style_description = style.options[style.selectedIndex].text;
-    }
-    var clasp = document.getElementById("clasp");
-    var clasp_description = "-";
-    if (clasp != null) {
-      clasp_description = clasp.options[clasp.selectedIndex].text;
-    }
+    {% if product.sold_out == false %}
+      var index = 0;
+      var size = document.getElementById("size");
+      var size_description = "-";
+      if (size != null) {
+        size_description = size.options[size.selectedIndex].text;
+      }
+      var style = document.getElementById("style");
+      var style_description = "-";
+      if (style != null) {
+        style_description = style.options[style.selectedIndex].text;
+      }
+      var clasp = document.getElementById("clasp");
+      var clasp_description = "-";
+      if (clasp != null) {
+        clasp_description = clasp.options[clasp.selectedIndex].text;
+      }
 
-    var value = size_description + "&" + style_description + "&" + clasp_description;
-    document.getElementsByName("os0")[0].value = merged_options[value]["value"];
-    document.getElementById("price").innerText = "$" + merged_options[value]["price"] + " CAD";
-
+      var value = size_description + "&" + style_description + "&" + clasp_description;
+      document.getElementsByName("os0")[0].value = merged_options[value]["value"];
+      document.getElementById("price").innerText = "$" + merged_options[value]["price"] + " CAD";
+    
+    {% endif %}
   }
 
-
   function init() {
+    
     update_price();
     {% if product.images.size > 1 %}
-    showSlides(slideIndex);
+      showSlides(slideIndex);
     {% endif %}
   }
 
@@ -145,7 +147,11 @@ layout: splash
       <span class="archive__item-excerpt" id="price">${{ product.price }}</span>
     </div>
 
-    {{ site.data.paypal_buttons[page.product_id] }}
+    {% if product.sold_out %}
+      <span style="color:RED">SOLD OUT</span>
+    {% else %}
+      {{ site.data.paypal_buttons[page.product_id] }}
+    {% endif %}
     
     <br/>
 

@@ -2,6 +2,7 @@
   name: "Flying Smiley"
   necklace: True
   price: "140.00"
+  sold_out: False
   sold: False
   sizes:
     -
@@ -25,6 +26,7 @@
   name: "Constallation Zebra"
   necklace: True
   price: "90.00"
+  sold_out: False
   details: "Necklace measures aprrox. 17\"" 
   materials:
     - "Sterling silver clasp"
@@ -46,6 +48,7 @@
   name: "Colour is Good Classic"
   necklace: True
   price: "95.00"
+  sold_out: False
   sizes:
     -
       value: 15
@@ -94,6 +97,7 @@
   name: "Peachy Meadows"
   necklace: True
   price: "100.00"
+  sold_out: False
   sizes:
     -
       value: 15
@@ -136,6 +140,7 @@
   name: "Fierce Heart"
   necklace: True
   price: "90.00"
+  sold_out: False
   details: "Necklace measures aprrox. 15\""
   materials:
     - "Sterling silver clasp"
@@ -154,6 +159,7 @@
   name: "Wing Divine"
   necklace: True
   price: "90.00"
+  sold_out: False
   sizes:
     -
       value: 15
@@ -176,6 +182,7 @@
   name: "Angel WingZ"
   necklace: True
   price: "110.00"
+  sold_out: False
   sizes:
     -
       value: 15
@@ -200,6 +207,7 @@
   name: "Glass Ocean"
   necklace: True
   price: "90.00"
+  sold_out: False
   sizes:
     -
       value: 15.5
@@ -221,15 +229,13 @@
       caption: ""
   background: "#F9F8C4AA"
 9:
-  name: "Double Rainbow Ringzz"
+  name: "Pearly"
   necklace: False
   price: "20.00"
+  sold_out: True
   styles:
     -
       value: "pearly"
-      price: "0.00"
-    -
-      value: "unicorn"
       price: "0.00"
   details: "<b>Currently only shipping within Canada, Limited Stock!</b><br> These styles of ring are made with stetchy string.</br>PEARLY stretches from size 5-7.</br>UNICORN stretches from size 4-6.</br>Due to the irregular shape of the pearls, ring size can not be exact and are an approximation."
   materials:
@@ -252,6 +258,7 @@
   name: "Galactic Shimmer"
   necklace: True
   price: "80.00"
+  sold_out: False
   sizes:
     -
       value: 15
@@ -282,6 +289,7 @@
   name: "Tentacle Thangz"
   necklace: False
   price: "15.00"
+  sold_out: False
   sizes:
     -
       value: "4-6 (stretch string)" 

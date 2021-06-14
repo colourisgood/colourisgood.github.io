@@ -59,10 +59,10 @@ row2:
   title: Glass Ocean
 - alt: placehold text
   background: '#F9E4C4AA'
-  excerpt: $20.00
+  excerpt: $20.00<span style="color:RED"> SOLD OUT</span>
   image_path: /assets/images/pearly.png
   image_url: product/9
-  title: Double Rainbow Ringzz
+  title: Pearly
 row3:
 - alt: placehold text
   background: '#C4F9DDAA'
