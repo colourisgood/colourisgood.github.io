@@ -53,13 +53,13 @@ row2:
   title: Angel WingZ
 - alt: placehold text
   background: '#F9F8C4AA'
-  excerpt: $90.00
+  excerpt: $90.00<span style="color:RED"> SOLD OUT</span>
   image_path: /assets/images/beech.jpg
   image_url: product/8
   title: Glass Ocean
 - alt: placehold text
   background: '#F9E4C4AA'
-  excerpt: $20.00<span style="color:RED"> SOLD OUT</span>
+  excerpt: $20.00
   image_path: /assets/images/pearly.png
   image_url: product/9
   title: Pearly
