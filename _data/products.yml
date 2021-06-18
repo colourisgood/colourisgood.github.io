@@ -207,7 +207,7 @@
   name: "Glass Ocean"
   necklace: True
   price: "90.00"
-  sold_out: False
+  sold_out: True
   sizes:
     -
       value: 15.5
@@ -232,7 +232,7 @@
   name: "Pearly"
   necklace: False
   price: "20.00"
-  sold_out: True
+  sold_out: False
   styles:
     -
       value: "pearly"
