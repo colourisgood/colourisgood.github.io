@@ -233,11 +233,27 @@
   necklace: False
   price: "20.00"
   sold_out: False
+  sizes:
+    -
+      value: 4
+      price: "0.00"
+    -
+      value: 5
+      price: "0.00"
+    -
+      value: 6
+      price: "0.00"
+    -
+      value: 7
+      price: "0.00"
+    -
+      value: 8
+      price: "0.00"
   styles:
     -
       value: "pearly"
       price: "0.00"
-  details: "<b>Currently only shipping within Canada, Limited Stock!</b><br> These styles of ring are made with stetchy string.</br>PEARLY stretches from size 5-7.</br>UNICORN stretches from size 4-6.</br>Due to the irregular shape of the pearls, ring size can not be exact and are an approximation."
+  details: "<b>Currently only shipping within Canada, Limited Stock!</b><br> These styles of ring are made with stetchy string.</br>PEARLY stretches up to 2 sizes</br>Due to the irregular shape of the pearls, ring size can not be exact and are an approximation."
   materials:
     - "AAA freshwater pearls"
     - "Stretchy string"

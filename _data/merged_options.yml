@@ -54,8 +54,11 @@
   {"value": "size:15.5 style:- gold", "price": "96.00"}, "17.5&-&silver": {"value":
   "size:17.5 style:- silver", "price": "100.00"}, "17.5&-&gold": {"value": "size:17.5
   style:- gold", "price": "106.00"}}'
-9: '{"-&pearly&-": {"value": "size:- style:pearly -", "price": "20.00"}, "-&unicorn&-":
-  {"value": "size:- style:unicorn -", "price": "20.00"}}'
+9: '{"4&pearly&-": {"value": "size:4 style:pearly -", "price": "20.00"}, "5&pearly&-":
+  {"value": "size:5 style:pearly -", "price": "20.00"}, "6&pearly&-": {"value": "size:6
+  style:pearly -", "price": "20.00"}, "7&pearly&-": {"value": "size:7 style:pearly
+  -", "price": "20.00"}, "8&pearly&-": {"value": "size:8 style:pearly -", "price":
+  "20.00"}}'
 10: '{"15&-&silver": {"value": "size:15 style:- silver", "price": "80.00"}, "15&-&gold":
   {"value": "size:15 style:- gold", "price": "86.00"}, "16&-&silver": {"value": "size:16
   style:- silver", "price": "85.00"}, "16&-&gold": {"value": "size:16 style:- gold",
