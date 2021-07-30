@@ -1,6 +1,6 @@
 ---
 layout: product
-title: Constallation Zebra
+title: Colour is Good Classic
 permalink: /product/2
 product_id: 2
 ---

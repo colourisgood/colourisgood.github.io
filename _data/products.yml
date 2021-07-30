@@ -23,28 +23,6 @@
       caption: ""
   background: "#F9C4DEAA"
 2:
-  name: "Constallation Zebra"
-  necklace: True
-  price: "90.00"
-  sold_out: False
-  details: "Necklace measures aprrox. 17\"" 
-  materials:
-    - "Sterling silver clasp"
-    - "AAA freshwater pearls"
-    - "Tarnish resistant silver plated wire"
-    - "Abalone shell star"
-    - "Ceramic dice"
-    - "Gemstones"
-    - "Glass beads"
-  images: 
-    - 
-      path: /assets/images/zebrastar.jpg
-      caption: ""
-    -
-      path: /assets/images/zebra_shadow.jpg
-      caption: ""
-  background: "#F9E4C4AA"
-3:
   name: "Colour is Good Classic"
   necklace: True
   price: "95.00"
@@ -85,7 +63,6 @@
     -
       path: /assets/images/matcha.jpg
       caption: "matcha"
-
     - 
       path: /assets/images/teddy.jpg
       caption: "teddy"
@@ -93,7 +70,7 @@
       path: /assets/images/seaglass_neck.jpg
       caption: "seaglass 16\""
   background: "#CEFBFDAA"
-4:
+3:
   name: "Peachy Meadows"
   necklace: True
   price: "100.00"
@@ -136,26 +113,7 @@
       path: /assets/images/peachymeadowsandfriends.jpg
       caption: "bunny & flowers"
   background: "#F9E4C4AA"
-5:
-  name: "Fierce Heart"
-  necklace: True
-  price: "90.00"
-  sold_out: False
-  details: "Necklace measures aprrox. 15\""
-  materials:
-    - "Sterling silver clasp"
-    - "Tiger's eye (semi-precious stone) heart bead"
-    - "Ceramic Tiger"
-    - "AAA freshwater pearls"
-    - "Tarnish resistant silver plated wire"
-    - "Gemstones"
-    - "Glass beads"
-  images: 
-    - 
-      path: /assets/images/fierceheart.jpg
-      caption: ""
-  background: "#F9E4C4AA"
-6:
+4:
   name: "Wing Divine"
   necklace: True
   price: "90.00"
@@ -178,32 +136,7 @@
       path: /assets/images/wingdivine.jpg
       caption: ""
   background: "#F9E4C4AA"
-7:
-  name: "Angel WingZ"
-  necklace: True
-  price: "110.00"
-  sold_out: False
-  sizes:
-    -
-      value: 15
-      price: "0.00"
-    -
-      value: 16
-      price: "5.00"
-  details: ""
-  materials:
-    - "AAA freshwater pearls"
-    - "Tarnish resistant silver plated wire"
-    - "Sterling silver or gold filled findings"
-  images: 
-    - 
-      path: /assets/images/angelwingz2.jpg
-      caption: ""
-    - 
-      path: /assets/images/angelwingz_face.jpg
-      caption: "15\""
-  background: "#F9E4C4AA"
-8:
+5:
   name: "Glass Ocean"
   necklace: True
   price: "90.00"
@@ -219,7 +152,7 @@
     - "AAA freshwater pearls"
     - "Tarnish resistant silver plated wire"
     - "Sterling silver or gold filled findings"
-  details: "This beauty has showstoping blue greenish turquoise biwa pearls, reminding us of dreamy skies, sea salts, and beachy good times. It is the combination of colour and shape of this pearl which make it difficult to source and a unique piece to add to your collecion. The necklace is available in two lengths, whether you are looking for a longer layering piece or shorter more elegant stye choker - we gothcu."
+  details: "This beauty has showstoping blue greenish turquoise biwa pearls, reminding us of dreamy skies, sea salts, and beachy good times. It is the combination of colour and shape of this pearl which make it difficult to source and a unique piece to add to your collecion. The necklace is available in two lengths, whether you are looking for a longer layering piece or shorter more elegant stye choker - we gotchu."
   images: 
     - 
       path: /assets/images/beech.jpg
@@ -228,7 +161,7 @@
       path: /assets/images/turquoise_face.jpg
       caption: ""
   background: "#F9F8C4AA"
-9:
+6:
   name: "Pearly"
   necklace: False
   price: "20.00"
@@ -262,15 +195,8 @@
     - 
       path: /assets/images/pearly.png
       caption: "pearly"
-    - 
-      path: /assets/images/unicorn.png
-      caption: "unicorn"
-    - 
-      path: https://gitlab.com/colourisgood/colourisgood_website_video/-/raw/master/web/unicorn.mp4
-      caption: ""
-      video: True
   background: "#F9E4C4AA"
-10:
+7:
   name: "Galactic Shimmer"
   necklace: True
   price: "80.00"
@@ -301,7 +227,7 @@
       path: /assets/images/galacticshimmer.jpg
       caption: ""
   background: "#C4F9DDAA"
-11:
+8:
   name: "Tentacle Thangz"
   necklace: False
   price: "15.00"

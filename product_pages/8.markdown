@@ -1,6 +1,6 @@
 ---
 layout: product
-title: Glass Ocean
+title: Tentacle Thangz
 permalink: /product/8
 product_id: 8
 ---

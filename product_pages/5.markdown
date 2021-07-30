@@ -1,6 +1,6 @@
 ---
 layout: product
-title: Fierce Heart
+title: Glass Ocean
 permalink: /product/5
 product_id: 5
 ---
