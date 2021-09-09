@@ -1,6 +1,6 @@
 ---
 layout: product
-title: Flying Smiley
+title: Colour is Good Classic
 permalink: /product/1
 product_id: 1
 ---

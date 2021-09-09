@@ -1,28 +1,4 @@
 1:
-  name: "Flying Smiley"
-  necklace: True
-  price: "140.00"
-  sold_out: False
-  sold: False
-  sizes:
-    -
-      value: 15
-      price: "0.00"
-    -
-      value: 16
-      price: "5.00"
-  materials: 
-    - "AAA freshwater pearls"
-    - "Tarnish resistant silver plated wire"
-    - "Sterling silver or gold filled findings"
-    - "Ceramic smiley bead"
-  details: ""
-  images: 
-    - 
-      path: /assets/images/flyingsmiley.jpg
-      caption: ""
-  background: "#F9C4DEAA"
-2:
   name: "Colour is Good Classic"
   necklace: True
   price: "95.00"
@@ -70,7 +46,7 @@
       path: /assets/images/seaglass_neck.jpg
       caption: "seaglass 16\""
   background: "#CEFBFDAA"
-3:
+2:
   name: "Peachy Meadows"
   necklace: True
   price: "100.00"
@@ -113,30 +89,7 @@
       path: /assets/images/peachymeadowsandfriends.jpg
       caption: "bunny & flowers"
   background: "#F9E4C4AA"
-4:
-  name: "Wing Divine"
-  necklace: True
-  price: "90.00"
-  sold_out: False
-  sizes:
-    -
-      value: 15
-      price: "0.00"
-    -
-      value: 16
-      price: "5.00"
-  details: ""
-  materials:
-    - "Aquamarine"
-    - "AAA freshwater pearls"
-    - "Tarnish resistant silver plated wire"
-    - "Sterling silver or gold filled findings"
-  images: 
-    - 
-      path: /assets/images/wingdivine.jpg
-      caption: ""
-  background: "#F9E4C4AA"
-5:
+3:
   name: "Glass Ocean"
   necklace: True
   price: "90.00"
@@ -161,11 +114,11 @@
       path: /assets/images/turquoise_face.jpg
       caption: ""
   background: "#F9F8C4AA"
-6:
+4:
   name: "Pearly"
   necklace: False
   price: "20.00"
-  sold_out: False
+  sold_out: True
   sizes:
     -
       value: 4
@@ -196,7 +149,7 @@
       path: /assets/images/pearly.png
       caption: "pearly"
   background: "#F9E4C4AA"
-7:
+5:
   name: "Galactic Shimmer"
   necklace: True
   price: "80.00"
@@ -227,7 +180,7 @@
       path: /assets/images/galacticshimmer.jpg
       caption: ""
   background: "#C4F9DDAA"
-8:
+6:
   name: "Tentacle Thangz"
   necklace: False
   price: "15.00"
